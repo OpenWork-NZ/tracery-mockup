@@ -1,0 +1,4982 @@
+<?xml version="1.0"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+  <head>
+    <variable name="subject"/>
+    <variable name="predicate"/>
+    <variable name="object"/>
+  </head>
+  <results>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/AEE</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P98i_was_born</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/AEE</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/AEE</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/Nelson</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/AEE</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1857</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/AEE</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/hp</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/AEE</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ee</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/hp</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P143i_was_joined_by</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/marraige_hp+ee</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/ee</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P143i_was_joined_by</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/marraige_hp+ee</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/ee</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P2_has_type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/role/publican</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/ee</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P2_has_type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/role/merchant/wine+spirit</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/ee</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P2_has_type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/role/captain/fire_brigade</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/ee</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P2_has_type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/role/city_councillor</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/ee</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P2_has_type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/role/city_mayor</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/ee</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P2_has_type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/role/Justice_of_the_Peace</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/marraige_hp+ee</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/p144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/ehe_family</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/publican</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/publican</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P3_has_note</uri>
+      </binding>
+      <binding name="object">
+        <literal xml:lang="en">Publican</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/merchant/wine+spirit</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/merchant/wine+spirit</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P3_has_note</uri>
+      </binding>
+      <binding name="object">
+        <literal xml:lang="en">Wine &amp; spirit merchant</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/ee</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P98i_was_born</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/AEE</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/ee</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/London</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/group/ehe_family</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P74_has_current_or_former_residence</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/Nelson</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/group/ehe_family</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P74_has_current_or_former_residence</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/country/Canada</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/emigration_ehe</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1853-05-25</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/emigration_ehe</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P25_moved</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/ehe_family</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/emigration_ehe</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://collections.aucklandmuseum.com/ontology/core/transportShip</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/thing/vessel/Sir_Edward_Paget</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/emigration_ehe</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P26_moved_to</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/Auckland</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/acquisition/purchase_Hardy_Street_Bank_building</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P22_transferred_title_to</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ee</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/building/Hardy_Street_Bank_building</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P24i_changed_ownership_through</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/acquisition/purchase_Hardy_Street_Bank_building</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/building/Hardy_Street_Bank_building</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P53_has_former_or_current_location</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/street/Hardy_Street</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/acquisition/purchase_Masonic_Hotel</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P22_transferred_title_to</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ee</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/building/Masonic_Hotel</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P24i_changed_ownership_through</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/acquisition/purchase_Masonic_Hotel</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/building/Masonic_Hotel</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P53_has_former_or_current_location</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/street/Hardy_Street</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/acquisition/purchase_Stafford_House</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P22_transferred_title_to</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ee</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/building/Stafford_House</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P24i_changed_ownership_through</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/acquisition/purchase_Stafford_House</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/building/Stafford_House</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P53_has_former_or_current_location</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/street/Haven</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ee_fire_brigade</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/p144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/fire_brigade</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ee_fire_brigade</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_captain</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ee</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_captain</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/2000/01/rdf-schema#subPropertyOf</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://erlangen-crm.org/current/P14_carried_out_by</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_captain</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      </binding>
+      <binding name="object">
+        <literal xml:lang="en">Captain</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/captain/firebrigade</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/captain/firebrigade</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P3_has_note</uri>
+      </binding>
+      <binding name="object">
+        <literal xml:lang="en">Fire Brigade Captain</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ee_councillor</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/p144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/NC_Council</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ee_councillor</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_Councillor</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ee</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/city_councillor</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/city_councillor</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P3_has_note</uri>
+      </binding>
+      <binding name="object">
+        <literal xml:lang="en">Councillor</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_councillor</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/2000/01/rdf-schema#subPropertyOf</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://erlangen-crm.org/current/P14_carried_out_by</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_councillor</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      </binding>
+      <binding name="object">
+        <literal xml:lang="en">Councillor</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_Mayor</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/2000/01/rdf-schema#subPropertyOf</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://erlangen-crm.org/current/P14_carried_out_by</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_Mayor</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      </binding>
+      <binding name="object">
+        <literal xml:lang="en">Mayor</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/city_mayor</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/city_mayor</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P3_has_note</uri>
+      </binding>
+      <binding name="object">
+        <literal xml:lang="en">Mayor</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ee_mayor_1st_term</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/p144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/NC_Council</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ee_mayor_1st_term</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_Mayor</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ee</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/er_mayor_2nd_term</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/p144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/NC_Council</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/er_mayor_2nd_term</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://tracery.openwork.nz/data/:P14.1_carried_out_by_as_Mayor</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ee</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ee_justice_of_the_peace</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/p144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/NC_Council</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ee_justice_of_the_peace</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_Justice_of_the_peace</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ee</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_Justice_of_the_peace</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/2000/01/rdf-schema#subPropertyOf</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://erlangen-crm.org/current/P14_carried_out_by</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_Justice_of_the_peace</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      </binding>
+      <binding name="object">
+        <literal>Justice of the Peace</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/Justice_of_the_Peace</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/Justice_of_the_Peace</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P3_has_note</uri>
+      </binding>
+      <binding name="object">
+        <literal xml:lang="en">Justice of the Peace</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/acquisition/purchase_John_Wilsons_Accommodation_House</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P22_transferred_title_to</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ee</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/building/John_Wilsons_Accommodation_House</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P24i_changed_ownership_through</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/acquisition/purchase_John_Wilsons_Accommodation_House</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/building/John_Wilsons_Accommodation_House</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P53_has_former_or_current_location</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/canvastown</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/id_assign/Pelorus_hotel</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P37_assigned</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/building/Pelorus_hotel</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/id_assign/Pelorus_hotel</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/p140_assigned_attribute_to</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/acquisition/purchase_John_Wilsons_Accommodation_House</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/eje</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P98i_was_born</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/eje</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/eje</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/Nelson</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/eje</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/hp</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/eje</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ee</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/eje</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P2_has_type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/role/manager</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/ce</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P98i_was_born</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ce</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/ce</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/Nelson</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/ce</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/hp</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/ce</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ee</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/ce</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P2_has_type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/role/purchaser</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/ae</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P98i_was_born</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ae</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/ae</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/Nelson</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/ae</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/hp</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/ae</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ee</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/ae</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P143i_was_joined_by</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/marriage_albert+annie</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/ae</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P2_has_type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/role/manager</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/ae</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P1431_was_joined_by</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/marriage_ae+ag</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/formation_everett_bros</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/p144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/everett_bros</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/formation_everett_bros</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://tracery.openwork.nz/data/P14.1_Carried_out_by_as_partner</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ee</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/formation_everett_bros</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://tracery.openwork.nz/data/P14.1_Carried_out_by_as_partner</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/eje</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/formation_everett_bros</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://tracery.openwork.nz/data/P14.1_Carried_out_by_as_partner</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ce</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/group/everett_bros</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P2_has_type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/role/retail/drapery</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/group/everett_bros</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/pP151i_participated_in</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/activity/Everett_bros_store_1</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/group/everett_bros</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P151i_participated_in</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/activity/Everett_bros_store_2</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/P14.1_Carried_out_by_as_partner</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/2000/01/rdf-schema#subPropertyOf</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://erlangen-crm.org/current/P14_carried_out_by</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/P14.1_Carried_out_by_as_partner</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      </binding>
+      <binding name="object">
+        <literal xml:lang="en">Partner</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/open_everett_bros_1</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P92_brought_into_existence</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/Everett_bros_store_1</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/Everett_bros_store_1</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P53_has_former_or_current_location</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/street/bridge_street</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/Everett_bros_store_1</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P53_has_former_or_current_location</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/Everett_bros_store_1</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/Everett_bros_store_1</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://tracery.openwork.nz/data/P14.1_Carried_out_by_as_manager</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/eje</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/retail/drapery</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/retail/drapery</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P3_has_note</uri>
+      </binding>
+      <binding name="object">
+        <literal xml:lang="en">Retail Drapery business</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/P14.1_Carried_out_by_as_manager</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/2000/01/rdf-schema#subPropertyOf</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://erlangen-crm.org/current/P14_carried_out_by</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/P14.1_Carried_out_by_as_manager</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      </binding>
+      <binding name="object">
+        <literal xml:lang="en">Manager</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/manager</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/manager</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P3_has_note</uri>
+      </binding>
+      <binding name="object">
+        <literal>Manager</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/P14.1_Carried_out_by_as_buyer</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/2000/01/rdf-schema#subPropertyOf</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://erlangen-crm.org/current/P14_carried_out_by</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/P14.1_Carried_out_by_as_buyer</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      </binding>
+      <binding name="object">
+        <literal>Buyer</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/purchaser</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/purchaser</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P3_has_note</uri>
+      </binding>
+      <binding name="object">
+        <literal>Purchaser</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/Everett_bros_store_1_buyer</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/London</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/Everett_bros_store_1_buyer</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://tracery.openwork.nz/data/P14.1_Carried_out_by_as_buyer</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ce</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/Everett_bros_store_2</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P53_has_former_or_current_location</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/street/bridge_street</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/Everett_bros_store_2</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P53_has_former_or_current_location</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/Everett_bros_store_2</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/Everett_bros_store_2</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P13i_was_destroyed_by</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/Everett_bros_fire</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/death/ws</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P100_was_death_of</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ws</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/ws</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P51i_is_former_or_current_owner_of</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/activity/victoria_house_1</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/victoria_house_1</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P2_has_type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/role/retail/drapery</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/victoria_house_1</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P24i_changed_ownership_through</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/acquisition/purchase_victoria_house_1</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/victoria_house_1</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P53_has_former_or_current_location</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/street/trafalgar_street</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/acquisition/purchase_victoria_house_1</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P22_transferred_title_to</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/everett_bros</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/move_victoria_house_1</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1874-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/move_victoria_house_1</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P25_moved</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/activity/victoria_house_1</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/move_victoria_house_1</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P26_moved_to</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/Everett_bros_store_2</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/Everett_bros_fire</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1875-03-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/Everett_bros_fire</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P13_destroyed</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/Everett_bros_store_1</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ae_nelson_college</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <bnode>b0</bnode>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ae_nelson_college</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/p144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/nelson_college</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ae_nelson_college</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_student</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ae</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <bnode>b0</bnode>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P79_beginning_is_qualified_by</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1871-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <bnode>b0</bnode>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P80_end_is_qualified_by</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1874-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_student</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P3_has_note</uri>
+      </binding>
+      <binding name="object">
+        <literal>Student</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_student</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/2000/01/rdf-schema#subPropertyOf</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://erlangen-crm.org/current/P14_carried_out_by</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_student</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      </binding>
+      <binding name="object">
+        <literal xml:lang="en">Student</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/move_ae_dun_chch</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <bnode>b1</bnode>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/move_ae_dun_chch</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P26_moved_to</uri>
+      </binding>
+      <binding name="object">
+        <literal>Dunedin</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/move_ae_dun_chch</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P26_moved_to</uri>
+      </binding>
+      <binding name="object">
+        <literal>Christchurch</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/move_ae_dun_chch</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P14_carried_out_by</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ae</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <bnode>b1</bnode>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P79_beginning_is_qualified_by</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1874-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <bnode>b1</bnode>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/end_is_qualified_by</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1885-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ae_everett_bros</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/p144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/everett_bros</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ae_everett_bros</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://tracery.openwork.nz/data/:P14.1_Carried_out_by_as_manager</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ae</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/expansion_everett_bros</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://tracery.openwork.nz/data/P14.1_Carried_out_by_as_manager</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ae</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/open_Mot_everett_bros_1</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P92_brought_into_existence</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/activity/Mot_everett_bros_store_1</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/open_Mot_everett_bros_1</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P8_took_place_on_or_within</uri>
+      </binding>
+      <binding name="object">
+        <bnode>b2</bnode>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/Mot_everett_bros_store_1</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P53_has_former_or_current_location</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/Mot_everett_bros_store_1</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <bnode>b2</bnode>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P79_beginning_is_qualified_by</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1899-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/Mot_everett_bros_store_1</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P53_has_former_or_current_location</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/Motueka</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/open_Takaka_everett_bros</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <bnode>b3</bnode>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/open_Takaka_everett_bros</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P92_brought_into_existence</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/activity/Takaka_everett_bros_store</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/Takaka_everett_bros_store</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P53_has_former_or_current_location</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/Takaka_everett_bros_store</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <bnode>b3</bnode>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P79_beginning_is_qualified_by</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1899-11-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/Takaka_everett_bros_store</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P53_has_former_or_current_location</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/Takaka</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/close_Mot_everett_bros_1</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P93_took_out_of_existence</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/activity/Mot_everett_bros_store_1</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/open_Mot_everett_bros_2</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1902-11-15</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/open_Mot_everett_bros_2</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P92_brought_into_existence</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/activity/Mot_everett_bros_store_2</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/Mot_everett_bros_store_2</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P53_has_former_or_current_location</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/Mot_everett_bros_store_2</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/Mot_everett_bros_store_2</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P24i_changed_ownership_through</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/acquisition/wu_everett_bros_mot</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/Mot_everett_bros_store_2</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P53_has_former_or_current_location</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/Motueka</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/Mot_everett_bros_store_2</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P53_has_former_or_current_location</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/high_street</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/wu_everett_bros_mot</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/p144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/everett_bros</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/wu_everett_bros_mot</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P53_has_former_or_current_location</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/Mot_everett_bros_store_2</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/wu_everett_bros_mot</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://tracery.openwork.nz/data/:P14.1_Carried_out_by_as_manager</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/wu</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/acquisition/wu_everett_bros_mot</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P22_transferred_title_to</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/wu</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/id_assign/Uren+co</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P37_assigned</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/building/uren+co</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/id_assign/Uren+co</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/p140_assigned_attribute_to</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/Mot_everett_bros_store_2</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/building/uren+co</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P2_has_type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/role/retail/drapery</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/ralph_watson</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/annie_arscott</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/ralph_watson</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/william_watson</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/ralph_watson</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P2_has_type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/role/farmworker</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/ralph_watson</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P2_has_type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/role/field_gunner</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/ralph_watson</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P11i_participated_in</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/WWI</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/annie_arscott</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/Thomas_Arscott</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/annie_arscott</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/Harriett_Arscott</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/annie_arscott</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P143i_was_joined_by</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/marraige_william+annie</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/annie_arscott</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P143i_was_joined_by</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/marriage_albert+annie</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/annie_arscott</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P2_has_type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/role/dressmaker</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/william_watson</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P143i_was_joined_by</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/marraige_william+annie</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/william_watson</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P2_has_type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/role/hotel_keeper</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/hotel_keeper</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/hotel_keeper</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P3_has_note</uri>
+      </binding>
+      <binding name="object">
+        <literal xml:lang="en">Hotel keeper</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/marraige_william+annie</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1897-01-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/marraige_william+annie</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/w+a_watson_family</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/disertion_william</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1898=-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/disertion_william</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P145_separated</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/william_watson</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/disertion_william</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P146_separated_from</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/w+a_watson_family</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/return_to_timaru</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P25_moved</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/w+a_watson_family</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/return_to_timaru</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P26_moved_to</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/timaru</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/dressmaker</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/dressmaker</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P3_has_note</uri>
+      </binding>
+      <binding name="object">
+        <literal>Dressmaker</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/divorce_william+annie</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1910-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/divorce_william+annie</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P145_separated</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/william_watson</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/divorce_william+annie</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P146_separated_from</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/w+a_watson_family</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/group/thomas+harriett_familly</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P157i_occupied</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/:place/residence/thomas+harriett_familly</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/:place/residence/thomas+harriett_familly</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P59i_is_located_on_or_within</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/Timaru</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/:place/residence/thomas+harriett_familly</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P59i_is_located_on_or_within</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/street/Dee_street</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Thomas_Arscott</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P143i_was_joined_by</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/marriage_thomas+harriett</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Thomas_Arscott</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P2_has_type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/role/stoker</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/stoker</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/stoker</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P3_has_note</uri>
+      </binding>
+      <binding name="object">
+        <literal xml:lang="en">Stoker</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Harriett_Arscott</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P2_has_type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/role/suffragettte</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/suffragettte</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/suffragettte</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P3_has_note</uri>
+      </binding>
+      <binding name="object">
+        <literal xml:lang="en">Women suffrage supporter</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Ernest_Arscott</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P98i_was_born</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/Ernest_Arscott</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Ernest_Arscott</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/thomas+harriett_familly</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Ernest_Arscott</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/Thomas_Arscott</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Ernest_Arscott</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/Harriett_Arscott</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Ernest_Arscott</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P11i_participated_in</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/WWI</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Frederick_Arscott</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P98i_was_born</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/Frederick_Arscott</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Frederick_Arscott</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/thomas+harriett_familly</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Frederick_Arscott</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/Thomas_Arscott</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Frederick_Arscott</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/Harriett_Arscott</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Frederick_Arscott</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P11i_participated_in</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/WWI</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Alfred_Arscott</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P98i_was_born</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/Alfred_Arscott</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Alfred_Arscott</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/thomas+harriett_familly</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Alfred_Arscott</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/Thomas_Arscott</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Alfred_Arscott</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/Harriett_Arscott</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Alfred_Arscott</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P11i_participated_in</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/WWI</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/move_to_nelson_watsons</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P25_moved</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/w+a_watson_family</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/move_to_nelson_watsons</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P26_moved_to</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/Nelson</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/rw_nelson_college</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <bnode>b4</bnode>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/rw_nelson_college</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_student</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ralph_watson</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/rw_nelson_college</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/nelson_college</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <bnode>b4</bnode>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P79_beginning_is_qualified_by</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1911-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <bnode>b4</bnode>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P80_end_is_qualified_by</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1914-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/rw_Tasman_st_school</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <bnode>b5</bnode>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/rw_Tasman_st_school</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_student</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ralph_watson</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/rw_Tasman_st_school</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/Tasman_st_school</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <bnode>b5</bnode>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P79_beginning_is_qualified_by</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1905-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <bnode>b5</bnode>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P80_end_is_qualified_by</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1908-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/rw_nelson_central_school</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <bnode>b6</bnode>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/rw_nelson_central_school</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_student</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ralph_watson</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/rw_nelson_central_school</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/nelson_central_school</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <bnode>b6</bnode>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P79_beginning_is_qualified_by</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1909-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <bnode>b6</bnode>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P80_end_is_qualified_by</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1910-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ge_nelson_college</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <bnode>b7</bnode>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ge_nelson_college</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <bnode>b8</bnode>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ge_nelson_college</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_student</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/Gerald_Everett</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ge_nelson_college</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_student</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/George_Everett</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ge_nelson_college</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/nelson_college</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <bnode>b7</bnode>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P79_beginning_is_qualified_by</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1911-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <bnode>b7</bnode>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P80_end_is_qualified_by</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1914-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Gerald_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P143i_was_joined_by</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/departure/Main_Body_troops_WWI</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Gerald_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P2_has_type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/role/field_gunner</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Gerald_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P11i_participated_in</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/WWI</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/fe_nelson_college</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <bnode>b9</bnode>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/fe_nelson_college</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_student</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/Frank_Everett</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/fe_nelson_college</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/nelson_college</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <bnode>b9</bnode>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P79_beginning_is_qualified_by</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1911-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <bnode>b9</bnode>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P80_end_is_qualified_by</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1914-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Frank_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ae</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Frank_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ag</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Frank_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P143i_was_joined_by</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/departure/Main_Body_troops_WWI</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Frank_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P2_has_type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/role/field_gunner</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Frank_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P11i_participated_in</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/WWI</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/rw_nelson_college_1st_xv</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <bnode>b10</bnode>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/rw_nelson_college_1st_xv</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/nelson_college_1st_xv</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/rw_nelson_college_1st_xv</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ralph_watson</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <bnode>b10</bnode>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P79_beginning_is_qualified_by</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1911-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <bnode>b10</bnode>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P80_end_is_qualified_by</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1914-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/rw_nelson_college_1st_xi</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <bnode>b11</bnode>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/rw_nelson_college_1st_xi</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P14_carried_out_by</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ralph_watson</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/rw_nelson_college_1st_xi</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/nelson_college_1st_xi</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <bnode>b11</bnode>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P79_beginning_is_qualified_by</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1911-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <bnode>b11</bnode>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P80_end_is_qualified_by</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1914-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/farmworker</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/farmworker</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P3_has_note</uri>
+      </binding>
+      <binding name="object">
+        <literal xml:lang="en">mixed farms and orchards worker</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/rw_enlistment</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/Pokororo</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/rw_enlistment</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1915-08-25</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/rw_enlistment</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/NZ_field_artiliary</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/rw_enlistment</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_field_gunner</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ralph_watson</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_field_gunner</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/2000/01/rdf-schema#subPropertyOf</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://erlangen-crm.org/current/P14_carried_out_by</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_field_gunner</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      </binding>
+      <binding name="object">
+        <literal xml:lang="en">Field Gunner</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/city/Pokororo</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P53_has_former_or_current_location</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/Mokueka_Valley</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/field_gunner</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/field_gunner</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P3_has_note</uri>
+      </binding>
+      <binding name="object">
+        <literal>Field Gunner, Military</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/Letter/rw_aug_1916</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/country/France</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/Letter/rw_aug_1916</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1916-08-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/Letter/rw_aug_1916</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P14_carried_out_by</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ralph_watson</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/Letter/rw_aug_1916</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P29_custody_received_by</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/Thomas_Arscott</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/Letter/rw_last</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/country/France</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/Letter/rw_last</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1916-10-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/Letter/rw_last</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P14_carried_out_by</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ralph_watson</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/Letter/rw_last</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P29_custody_received_by</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/Thomas_Arscott</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/death/ralph_watson</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/country/France</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/death/ralph_watson</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1916-10-15</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/death/ralph_watson</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P100_was_death_of</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ralph_watson</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/death/ralph_watson</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P114_is_equal_in_time_to</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://erlangen-crm.org/current/event/battle_of_somme</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ge_enlistment</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/Pokororo</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ge_enlistment</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/NZ_field_artiliary</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ge_enlistment</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_field_gunner</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/Gerald_Everett</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ge_enlistment</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/p4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1914-08-14</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/fe_enlistment</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/Pokororo</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/fe_enlistment</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1914-08-14</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/fe_enlistment</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/NZ_field_artiliary</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/fe_enlistment</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_field_gunner</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/Frank_Everett</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/departure/Main_Body_troops_WWI</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P25_moved</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/Main_Body_troops_WWI</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/qualified/ve_nurse</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1915-10-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/qualified/ve_nurse</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P14_carried_out_by</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/Viola_Everett</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/qualified/ve_nurse</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/Nursing_profession</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Viola_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P2_has_type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/role/nurse</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Viola_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ae</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Viola_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ag</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/nurse</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/nurse</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P3_has_note</uri>
+      </binding>
+      <binding name="object">
+        <literal>Nurse</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_Nurse</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/2000/01/rdf-schema#subPropertyOf</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://erlangen-crm.org/current/P14_carried_out_by</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_Nurse</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      </binding>
+      <binding name="object">
+        <literal xml:lang="en">Nurse</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ve_aus_army_nurse</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/country/australia</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ve_aus_army_nurse</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1916-12-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ve_aus_army_nurse</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/aus_army_nurse</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ve_aus_army_nurse</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_Nurse</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/Viola_Everett</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ve_No27_General_Hospital_Alexandria_Egypt</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/Alexandria</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ve_No27_General_Hospital_Alexandria_Egypt</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/country/egypt</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ve_No27_General_Hospital_Alexandria_Egypt</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/No27_General_Hospital_Alexandria_Egypt</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ve_No27_General_Hospital_Alexandria_Egypt</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_nurse</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/Viola_Everett</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/ve_return_aus</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1919-07-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/ve_return_aus</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P26_moved_to</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/country/australia</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/qualified/twins_nurse</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1916-05-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/qualified/twins_nurse</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P14_carried_out_by</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/twins_Claire+Dorothy</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/qualified/twins_nurse</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/Nursing_profession</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Dorothy_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P2_has_type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/role/nurse</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Dorothy_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ae</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Dorothy_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ag</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Claire_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P2_has_type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/role/nurse</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Claire_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ae</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Claire_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ag</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/twins_NZ_Aray_Nursing_Service</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/country/New_Zealand</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/twins_NZ_Aray_Nursing_Service</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1918-08-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/twins_NZ_Aray_Nursing_Service</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/NZ_Aray_Nursing_Service</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/twins_NZ_Aray_Nursing_Service</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_Nurse</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/twins_Claire+Dorothy</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/twins_No2_NZ_General_Hospital</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/Walton_on_Thames</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/twins_No2_NZ_General_Hospital</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/country/England</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/twins_No2_NZ_General_Hospital</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/No2_NZ_General_Hospital</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/twins_No2_NZ_General_Hospital</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_nurse</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/twins_Claire+Dorothy</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/acquisition/Everett_farm</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P22_transferred_title_to</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ae</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/everett_farm</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P24i_changed_ownership_through</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/acquisition/Everett_farm</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/everett_farm</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P53_has_former_or_current_location</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/Pokororo</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/everett_farm</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P53_has_former_or_current_location</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/everett_farm</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/everett_farm</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P108_has_produced</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/thing/apples</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/marraige_ae+ag</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/ae+ag</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/group/ae+ag</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P157i_occupied</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/ae+ag_nelson_res</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/ag</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P1431_was_joined_by</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/marriage_ae+ag</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/ag</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P98i_was_born</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/eje</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/ag</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/Melbourne</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/ae+ag_nelson_res</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P53_has_former_or_current_location</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/nelson</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/ae+ag_nelson_res</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P53_has_former_or_current_location</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/collingwood_street_villa</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/collingwood_street_villa</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P135i_was_created_by</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/john_scott</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/john_scott</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P2_has_type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/role/architect</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/architect</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/architect</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P3_has_note</uri>
+      </binding>
+      <binding name="object">
+        <literal>Architect</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/George_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/Nelson</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/George_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1884-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/George_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/98i_was_born</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/George_Everett</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/George_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ae</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/George_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ag</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/George_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P2_has_type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/role/captain/army</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Gladys_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P98i_was_born</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/Gladys_Everett</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Gladys_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/Nelson</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Gladys_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ae</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Gladys_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ag</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Viola_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P98i_was_born</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/Viola_Everett</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Viola_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/Nelson</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Claire+Dorothy_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P98i_was_born</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/Claire_Everett</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Claire+Dorothy_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/Nelson</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Claire+Dorothy_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/twins_Claire+Dorothy_Everett</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Gerald_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P98i_was_born</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/Gerald_Everett</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Gerald_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/Nelson</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Gerald/Gerald_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ae</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Gerald/Gerald_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ag</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Frank_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P98i_was_born</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/Frank_Everett</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Frank_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/Nelson</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Charles_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P98i_was_born</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/Charles_Everett</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Charles_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/Nelson</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Charles_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ae</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Charles_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ag</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Stella_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P98i_was_born</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/Stella_Everett</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Stella_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/Nelson</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Stella_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ae</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Stella_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ag</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/John_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P98i_was_born</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/John_Everett</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/John_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/Nelson</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/John_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ae</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/John_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ag</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Colin_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P98i_was_born</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/Colin_Everett</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Colin_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/Nelson</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Colin_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ae</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Colin_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P152_has_parent</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ag</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <bnode>b8</bnode>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P80_end_is_qualified_by</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1904-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <bnode>b8</bnode>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P79_beginning_is_qualifed_by</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1900-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ge_nelson_college_1st_xv</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <bnode>b12</bnode>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ge_nelson_college_1st_xv</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_captain</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/George_Everett</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ge_nelson_college_1st_xv</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/nelson_college_1st_xv</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <bnode>b12</bnode>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P80_end_is_qualified_by</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1904-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <bnode>b12</bnode>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P79_beginning_is_qualifed_by</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1900-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ge_nelson_college_head_boy</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/nelson_college_students</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ge_nelson_college_head_boy</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time_span</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1904-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ge_nelson_college_head_boy</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_head_boy</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/George_Everett</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_head_boy</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/2000/01/rdf-schema#subPropertyOf</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://erlangen-crm.org/current/P14_carried_out_by</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_head_boy</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      </binding>
+      <binding name="object">
+        <literal xml:lang="en">Head boy</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ge_nelson_college_no2_cadet</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1904-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ge_nelson_college_no2_cadet</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/nelson_college_1st_xv</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ge_nelson_college_no2_cadet</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_dux+captain</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/George_Everett</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_dux+captain</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/2000/01/rdf-schema#subPropertyOf</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_captain</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/P14.1_carried_out_by_as_dux+captain</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      </binding>
+      <binding name="object">
+        <literal xml:lang="en">Dux+Captain</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/move_to_england</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1904-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/move_to_england</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P26_moved_to</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/country/England</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/move_to_england</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P14_carried_out_by</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/George_Everett</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/com_Brit_army</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <bnode>b13</bnode>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/com_Brit_army</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P14_carried_out_by</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/George_Everett</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/com_Brit_army</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/british_army</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <bnode>b13</bnode>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P80_end_is_qualified_by</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1917-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <bnode>b13</bnode>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P79_beginning_is_qualifed_by</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1904-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/67th_punjabis</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1905-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/67th_punjabis</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P26_moved_to</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/country/India</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/67th_punjabis</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/67th_punjabis</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/67th_punjabis</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P14.1_carried_out_by_as_captain</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/George_Everett</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/captain/army</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/captain/army</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P3_has_note</uri>
+      </binding>
+      <binding name="object">
+        <literal xml:lang="en">Army Captain</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/mil_police_burma</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <bnode>b14</bnode>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/mil_police_burma</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P26_moved_to</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/country/Burma</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/mil_police_burma</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/mil_police_burma</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/mil_police_burma</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P14_carried_out_by_as_captian</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/George_Everett</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <bnode>b14</bnode>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P80_end_is_qualified_by</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1916-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <bnode>b14</bnode>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P79_beginning_is_qualifed_by</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1913-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/return_to_baluchistan</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1916-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/return_to_baluchistan</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P26_moved_to</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/country/India</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/return_to_baluchistan</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P14_carried_out_by</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/George_Everett</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/death/George_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/Fort_Nili_Kache</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/death/George_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1917-05-1</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/death/George_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P100_was_death_of</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/George_Everett</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/death/George_Everett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P144_is_equal_in_time_to</uri>
+      </binding>
+      <binding name="object">
+        <bnode>b15</bnode>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/Fort_Nili_Kache</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P3_has_note</uri>
+      </binding>
+      <binding name="object">
+        <literal>Fort Nili Kach</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/Fort_Nili_Kache</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P53_has_current_or_former_location</uri>
+      </binding>
+      <binding name="object">
+        <bnode>b16</bnode>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <bnode>b15</bnode>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P3_has_note</uri>
+      </binding>
+      <binding name="object">
+        <literal>An attack on a British convoy by Mahsud tribesmen.</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <bnode>b16</bnode>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P3_has_note</uri>
+      </binding>
+      <binding name="object">
+        <literal>NOrth-West Frontier</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/death/ag</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/Pokororo</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/death/ag</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1906-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/death/ag</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P100_was_death_of</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ag</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/marriage_albert+annie</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/Nelson</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/marriage_albert+annie</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/office/nelson_registry</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/marriage_albert+annie</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1913-09-10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/marriage_albert+annie</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/albert+annie_everett</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/office/nelson_registry</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P3_has_note</uri>
+      </binding>
+      <binding name="object">
+        <literal xml:lang="en">Nelson Registry Office</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/annie_arscott</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P98i_was_born</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/annie_arscott</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/annie_arscott</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/country/England</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/annie_arscott</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1873-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/annie_arscott</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/thomas+harriett_family</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/marriage_thomas_harriett</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/thomas+harriett_family</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/emigration_arscotts</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1875-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/emigration_arscotts</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P25_moved</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/thomas+harriet_family</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/emigration_arscotts</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://collections.aucklandmuseum.com/ontology/core/transportShip</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/thing/vessel/White_Rose</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/emigration_arscotts</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P26_moved_to</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/Timaru</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/ralph_watson</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P98i_was_born</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/ralph_watson</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/ralph_watson</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/place/city/wellington</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/ralph_watson</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+      </binding>
+      <binding name="object">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1897-12-25</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/ralph_watson</uri>
+      </binding>
+      <binding name="predicate">
+        <uri>http://erlangen-crm.org/current/P144_joined_with</uri>
+      </binding>
+      <binding name="object">
+        <uri>http://tracery.openwork.nz/data/people/group/w+a_watson_family</uri>
+      </binding>
+    </result>
+  </results>
+</sparql>
