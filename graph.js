@@ -31,7 +31,7 @@ d3.xml("tracery.xml", function(err, links) {
     link.target.links.push(link)
   })
 
-  function queryVisible(center, hops) {
+  function labelNodeDepth(center, hops) {
     center.depth = 0
     var fringe = [center]
     while (fringe.length > 0) {
@@ -45,6 +45,21 @@ d3.xml("tracery.xml", function(err, links) {
         fringe.push(edge)
       })
     }
+  }
+  function queryVisible(center, hops) {
+    d3.values(nodes).forEach(function(node) {nodes.depth = undefined})
+    labelNodeDepth(center, hops)
+
+    var nodes = [], var edges = []
+    d3.values(nodes).forEach(function(node) {
+      if (item.depth == undefined) return;
+      nodes.push(node)
+      node.links.forEach(function(link) {
+        if (link.source != item) return
+        edges.push(link)
+      })
+    })
+    return {nodes: nodes, edges: edges}
   }
 
   var size = [960, 500]
