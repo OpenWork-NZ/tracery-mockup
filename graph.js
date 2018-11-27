@@ -42,7 +42,7 @@ d3.xml("tracery.xml", function(err, links) {
           childNode.depth = item.depth + 1
         if (childNode.depth > hops) return
 
-        fringe.push(edge)
+        fringe.push(childNode)
       })
     }
   }
@@ -86,18 +86,18 @@ d3.xml("tracery.xml", function(err, links) {
     .append("svg:path")
       .attr("d", "M0,-5L10,0L0,5")
 
-  var paths = svg.append("svg:g")
+  var paths = svg.append("svg:g"), path, node
   function updateVisible(center) {
-    var visible = queryVisible(center, 3)
+    var visible = {links: links, nodes: d3.values(nodes)} //queryVisible(center, 3)
     force.links(visible.links)
         .nodes(visible.nodes)
 
-    var path = paths.selectAll("path")
+    path = paths.selectAll("path")
         .data(force.links())
       .enter().append("svg:path")
         .attr("class", "link")
         .attr("marker-end", "url(#end)")
-    var node = svg.selectAll(".node")
+    node = svg.selectAll(".node")
         .data(force.nodes())
       .enter().append("g")
         .attr("class", "node")
