@@ -50,16 +50,16 @@ d3.xml("tracery.xml", function(err, links) {
     d3.values(nodes).forEach(function(node) {nodes.depth = undefined})
     labelNodeDepth(center, hops)
 
-    var nodes = [], var edges = []
+    var nodes = [], links = []
     d3.values(nodes).forEach(function(node) {
       if (item.depth == undefined) return;
       nodes.push(node)
       node.links.forEach(function(link) {
         if (link.source != item) return
-        edges.push(link)
+        links.push(link)
       })
     })
-    return {nodes: nodes, edges: edges}
+    return {nodes: nodes, links: links}
   }
 
   var size = [960, 500]
@@ -86,20 +86,28 @@ d3.xml("tracery.xml", function(err, links) {
     .append("svg:path")
       .attr("d", "M0,-5L10,0L0,5")
 
-  var path = svg.append("svg:g").selectAll("path")
-      .data(force.links())
-    .enter().append("svg:path")
-      .attr("class", "link")
-      .attr("marker-end", "url(#end)")
-  var node = svg.selectAll(".node")
-      .data(force.nodes())
-    .enter().append("g")
-      .attr("class", "node")
-      .call(force.drag)
-  node.append("circle").attr("r", 5)
-  node.append("text")
-      .attr("x", 12).attr("dy", ".35em")
-      .text(function(d) {return d.name})
+  var paths = svg.append("svg:g")
+  function updateVisible(center) {
+    var visible = queryVisible(center, 3)
+    force.links(visible.links)
+        .nodes(visible.nodes)
+
+    var path = paths.selectAll("path")
+        .data(force.links())
+      .enter().append("svg:path")
+        .attr("class", "link")
+        .attr("marker-end", "url(#end)")
+    var node = svg.selectAll(".node")
+        .data(force.nodes())
+      .enter().append("g")
+        .attr("class", "node")
+        .call(force.drag)
+    node.append("circle").attr("r", 5)
+    node.append("text")
+        .attr("x", 12).attr("dy", ".35em")
+        .text(function(d) {return d.name})
+  }
+  updateVisible(d3.values(nodes)[0])
 
   function tick() {
     path.attr("d", function(d) {
