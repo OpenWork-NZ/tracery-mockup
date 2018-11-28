@@ -1,20 +1,24 @@
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
 PREFIX erl: <http://erlangen-crm.org/current/> 
 
-SELECT ?subject ?predicate ?object ?type ?label ?doc ?img
+SELECT ?subject ?predicate ?object ?type ?label 
 WHERE {
   ?subject ?predicate ?object .
+  FILTER (!isBlank(?type))
+  
   OPTIONAL {
     ?subject a ?type .
   }
   OPTIONAL {
     ?subject rdfs:label ?label .
   }
-  OPTIONAL {
-    ?subject erl:P70i_is_documented_in ?doc .
-  }
-    OPTIONAL {
-    ?subject erl:P65i_is_shown_by ?img .
-  }
+
+  FILTER (?type != erl:E55_Type)
+  FILTER (?object != erl:E55_Type)
+  FILTER (?object NOT IN (?type))
+  FILTER (?subject NOT IN (?type))
 }
+
+
+
 
