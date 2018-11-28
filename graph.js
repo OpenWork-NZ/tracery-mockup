@@ -71,7 +71,14 @@ d3.xml("tracery.xml", function(err, links) {
         .data(force.nodes())
       .enter().append("g")
         .attr("class", "node")
-        .call(force.drag)
+        .on("mouseover", function(data) {
+          if (data.depth <= 0) return
+
+          var mouse = d3.mouse(this)
+          posX = mouse[0]; posY = mouse[1]
+
+          updateFocus(data)
+        })
     node.append("circle").attr("r", 20)
     node.append("text")
         .attr("x", 12).attr("dy", ".35em")
@@ -81,10 +88,16 @@ d3.xml("tracery.xml", function(err, links) {
 
   var MAX_DEPTH = 2
   var focused = d3.values(nodes)[0],
+    posX = size[0]/2, posY = size[1]/2,
     toExpand = [focused]
   focused.depth = MAX_DEPTH
+  function updateFocus(node) {
+    focused = node
+    toExpand = [focused]
+    focused.depth = MAX_DEPTH
+  }
   function tick() {
-    focused.x = size[0]/2; focused.y = size[1]/2
+    focused.x = posX; focused.y = posY
 
     path.attr("d", function(d) {
       var dx = d.target.x - d.source.y,
