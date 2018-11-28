@@ -37,7 +37,7 @@ d3.xml("tracery.xml", function(err, links) {
       .nodes(d3.values(nodes))
       .links(links)
       .size(size)
-      .linkDistance(60)
+      .linkDistance(30)
       .charge(function(d) {return d.depth > 0 ? -300: -50})
       .on("tick", tick)
       .start()
@@ -72,14 +72,14 @@ d3.xml("tracery.xml", function(err, links) {
       .enter().append("g")
         .attr("class", "node")
         .call(force.drag)
-    node.append("circle").attr("r", 5)
+    node.append("circle").attr("r", 20)
     node.append("text")
         .attr("x", 12).attr("dy", ".35em")
-        .text(function(d) {return d.name})
+        .text(function(d) {return d.name.split("/").pop()})
   }
   updateVisible(d3.values(nodes)[0])
 
-  var MAX_DEPTH = 3
+  var MAX_DEPTH = 2
   var focused = d3.values(nodes)[0],
     toExpand = [focused]
   focused.depth = MAX_DEPTH

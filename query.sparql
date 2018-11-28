@@ -1,0 +1,20 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX erl: <http://erlangen-crm.org/current/> 
+
+SELECT ?subject ?predicate ?object ?type ?label ?doc ?img
+WHERE {
+  ?subject ?predicate ?object .
+  OPTIONAL {
+    ?subject a ?type .
+  }
+  OPTIONAL {
+    ?subject rdfs:label ?label .
+  }
+  OPTIONAL {
+    ?subject erl:P70i_is_documented_in ?doc .
+  }
+    OPTIONAL {
+    ?subject erl:P65i_is_shown_by ?img .
+  }
+}
+
