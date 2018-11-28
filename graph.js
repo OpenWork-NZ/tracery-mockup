@@ -22,45 +22,15 @@ d3.xml("tracery.xml", function(err, links) {
     })
   links.forEach(function(link) {
     link.source = nodes[link.subject] || (
-      nodes[link.subject] = {name: link.subject, links: []}
+      nodes[link.subject] = {name: link.subject, links: [], depth: 0}
     )
     link.source.links.push(link)
     link.target = nodes[link.object] || (
-      nodes[link.object] = {name: link.object, links: []}
+      nodes[link.object] = {name: link.object, links: [], depth: 0}
     )
+    link.depth = 0
     link.target.links.push(link)
   })
-
-  function labelNodeDepth(center, hops) {
-    center.depth = 0
-    var fringe = [center]
-    while (fringe.length > 0) {
-      item = fringe.pop()
-      item.links.forEach(function(link) {
-        var childNode = link.source != item ? link.source : link.target
-        if (childNode.depth == undefined || childNode.depth > item.depth)
-          childNode.depth = item.depth + 1
-        if (childNode.depth > hops) return
-
-        fringe.push(childNode)
-      })
-    }
-  }
-  function queryVisible(center, hops) {
-    d3.values(nodes).forEach(function(node) {nodes.depth = undefined})
-    labelNodeDepth(center, hops)
-
-    var nodes = [], links = []
-    d3.values(nodes).forEach(function(node) {
-      if (item.depth == undefined) return;
-      nodes.push(node)
-      node.links.forEach(function(link) {
-        if (link.source != item) return
-        links.push(link)
-      })
-    })
-    return {nodes: nodes, links: links}
-  }
 
   var size = [960, 500]
   var force = d3.layout.force()
@@ -109,6 +79,9 @@ d3.xml("tracery.xml", function(err, links) {
   }
   updateVisible(d3.values(nodes)[0])
 
+  var MAX_DEPTH = 3
+  var toExpand = [d3.values(nodes)[0]]
+  toExpand[0].depth = MAX_DEPTH
   function tick() {
     path.attr("d", function(d) {
       var dx = d.target.x - d.source.y,
@@ -118,8 +91,21 @@ d3.xml("tracery.xml", function(err, links) {
           "A" + dr + "," + dr + " 0 0,1 " +
           d.target.x + "," + d.target.y
     })
+        .style('opacity', function(d) {return d.depth/MAX_DEPTH})
     node.attr("transform", function(d) {
       return "translate(" + d.x + "," + d.y + ")"
     })
+        .style('opacity', function(d) {return d.depth/MAX_DEPTH})
+
+    if (toExpand.length > 0) {
+      item = toExpand.shift()
+      if (item.depth > 1) item.links.forEach(function(link) {
+        link.depth = item.depth
+        child = link.source == item ? link.target : link.source
+        if (child.depth >= item.depth) return
+        child.depth = item.depth - 1
+        if (toExpand.indexOf(child) < 0) toExpand.push(child)
+      })
+    }
   }
 })
