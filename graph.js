@@ -38,7 +38,7 @@ d3.xml("tracery.xml", function(err, links) {
       .links(links)
       .size(size)
       .linkDistance(60)
-      .charge(-300)
+      .charge(function(d) {return d.depth > 0 ? -300: -50})
       .on("tick", tick)
       .start()
 
@@ -80,9 +80,12 @@ d3.xml("tracery.xml", function(err, links) {
   updateVisible(d3.values(nodes)[0])
 
   var MAX_DEPTH = 3
-  var toExpand = [d3.values(nodes)[0]]
-  toExpand[0].depth = MAX_DEPTH
+  var focused = d3.values(nodes)[0],
+    toExpand = [focused]
+  focused.depth = MAX_DEPTH
   function tick() {
+    focused.x = size[0]/2; focused.y = size[1]/2
+
     path.attr("d", function(d) {
       var dx = d.target.x - d.source.y,
           dy = d.target.y - d.source.y,
@@ -97,6 +100,13 @@ d3.xml("tracery.xml", function(err, links) {
     })
         .style('opacity', function(d) {return d.depth/MAX_DEPTH})
 
+    d3.values(nodes).forEach(function(node) {
+      if (node.depth <= 0) return // I don't care about you.
+      if (node.x < 0) node.x = 10
+      if (node.x > size[0]) node.x = size[0] - 10
+      if (node.y < 0) node.y = 10
+      if (node.y > size[1]) node.y = size[1] - 10
+    })
     if (toExpand.length > 0) {
       item = toExpand.shift()
       if (item.depth > 1) item.links.forEach(function(link) {
