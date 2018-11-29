@@ -123,6 +123,10 @@ function update() {
 		.attr("class", "node")
 		.attr("r", radius)
 		.attr("fill", function(d) {return color(d.group);})
+		.on("mouseover", function(d) {
+			filter(d.peers)
+			update()
+		})
 
     newNode.append("title")
       .text(function(d) { return d.name; });
@@ -167,7 +171,7 @@ function ticked() {
 }
 
 //	filter function
-function filter(focused) {
+function filter(focused, d) {
 	//	add and remove nodes from data based on type filters
 	store.nodes.forEach(function(n) {
 		if (focused.indexOf(n) >= 0 && n.filtered) {
@@ -176,7 +180,7 @@ function filter(focused) {
 		} else if (focused.indexOf(n) < 0 && !n.filtered) {
 			n.filtered = true;
 			graph.nodes.forEach(function(d, i) {
-				if (n.id === d.id) {
+				if (n === d) {
 					graph.nodes.splice(i, 1);
 				}
 			});
@@ -191,7 +195,7 @@ function filter(focused) {
 		} else if ((l.source.filtered || l.target.filtered) && !l.filtered) {
 			l.filtered = true;
 			graph.links1.forEach(function(d, i) {
-				if (l.id === d.id) {
+				if (l === d) {
 					graph.links1.splice(i, 1);
 				}
 			});
