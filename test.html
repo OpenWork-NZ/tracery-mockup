@@ -39,7 +39,7 @@ button {
 <script>
 
 //	data stores
-var graph = {nodes: [], links1: []}, store = {};
+var graph = {nodes: [], links1: []}, store = {} , kindLabel = {};
 
 //	svg selection and sizing
 var svg = d3.select("svg"),
@@ -48,7 +48,12 @@ var svg = d3.select("svg"),
     radius = 10;
 
 //	d3 color scales
-var color = d3.scaleOrdinal(d3.schemeCategory10);
+// var color = d3.scaleOrdinal(d3.schemeCategory10);
+var color = d3.scaleOrdinal()
+.domain(["http://www.w3.org/ns/org#/Role", "http://erlangen-crm.org/current/E5_Event", "http://erlangen-crm.org/current/E21_Person", "http://erlangen-crm.org/current/E18_Physical_Thing", "http://erlangen-crm.org/current/E74_Group", "http://erlangen-crm.org/current/E53_Place", "http://erlangen-crm.org/current/E31_Document", "http://erlangen-crm.org/current/38_Image"])
+.range(["#00FF00","#FF0000","#0000FF","#C0C0C0","#00FFFF","#FFFF00","#008080","#FF00FF"]);
+
+
 
 var link = svg.append("g").selectAll(".link"),
 	node = svg.append("g").selectAll(".node");
@@ -64,7 +69,44 @@ var simulation = d3.forceSimulation()
 //	filtered types
 typeFilterList = [];
 
-//	data read and store
+//  data read and store for kind and label
+d3.xml("tracery_type_label.xml", function(err, links) {
+   if (err) throw err;
+   
+   var results = links.querySelectorAll("result")
+   results = [].slice.call(results)
+   results = results.map(function(typeLabel) {
+     function getVar(name) {
+         var r = typeLabel.querySelector("[name=" + name + "] uri")
+         if (!r || r.childNodes.length == 0) return undefined
+         return r.childNodes[0].nodeValue
+     }
+     function getVal(name) {
+         var r = typeLabel.querySelector("[name=" + name + "] literal")
+         if (!r || r.childNodes.length == 0) return undefined
+         return r.childNodes[0].nodeValue
+     }
+     return {
+         subject: getVar("subject"),
+         kind: getVar("type"),
+         label: getVal("label")
+     }
+  });
+       
+     var nodes = {},
+        links = results.filter(function(link) {
+          return link.subject
+        })
+        links.forEach(function(link) {
+              nodes[link.subject] = link
+    
+        })
+        kindLabel.nodes = nodes
+        kindLabel.links1 = links
+        update()
+                         
+});
+//	data read and store for triples
 d3.xml("tracery.xml", function(err, links) {
 	if (err) throw err;
 
@@ -76,6 +118,7 @@ d3.xml("tracery.xml", function(err, links) {
       if (!r || r.childNodes.length == 0) return undefined
       return r.childNodes[0].nodeValue
     }
+                        
     return {
       subject: getVar("subject"),
       predicate: getVar("predicate"),
@@ -110,7 +153,10 @@ d3.xml("tracery.xml", function(err, links) {
 
 	filter(store.nodes[0].peers)
 	update()
+       
 });
+
+
 
 //	general update pattern for updating the graph
 function update() {
@@ -122,7 +168,7 @@ function update() {
 	var newNode = node.enter().append("circle")
 		.attr("class", "node")
 		.attr("r", radius)
-		.attr("fill", function(d) {return color(d.group);})
+        .attr("fill", function(d) {return color(kindLabel.nodes[d.name].kind);})
 		.on("mouseover", function(d) {
 			filter(d.peers)
 			update()

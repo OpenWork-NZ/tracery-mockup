@@ -4,7 +4,6 @@ PREFIX erl: <http://erlangen-crm.org/current/>
 SELECT ?subject ?predicate ?object ?type ?label 
 WHERE {
   ?subject ?predicate ?object .
-  FILTER (!isBlank(?type))
   
   OPTIONAL {
     ?subject a ?type .
@@ -17,6 +16,7 @@ WHERE {
   FILTER (?object != erl:E55_Type)
   FILTER (?object NOT IN (?type))
   FILTER (?subject NOT IN (?type))
+  FILTER (?predicate NOT IN (erl:P3_has_note, rdfs:label))
 }
 
 

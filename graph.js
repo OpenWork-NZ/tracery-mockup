@@ -12,13 +12,14 @@ d3.xml("tracery.xml", function(err, links) {
     return {
       subject: getVar("subject"),
       predicate: getVar("predicate"),
-      object: getVar("object")
+      object: getVar("object"),
+      type: getVar("type")
     }
   })
 
   var nodes = {},
     links = results.filter(function(link) {
-      return link.subject && link.predicate && link.object
+      return link.subject && link.predicate && link.object && link.type
     })
   links.forEach(function(link) {
     link.source = nodes[link.subject] || (
