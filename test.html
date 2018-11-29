@@ -171,39 +171,35 @@ function ticked() {
 }
 
 //	filter function
-function filter(focused) {
+function filter(focused, d) {
 	//	add and remove nodes from data based on type filters
 	store.nodes.forEach(function(n) {
 		if (focused.indexOf(n) >= 0 && n.filtered) {
-			console.log("+", n)
 			n.filtered = false;
 			graph.nodes.push(n);
-		} /*else if (focused.indexOf(n) < 0 && !n.filtered) {
-			console.log("-", n)
+		} else if (focused.indexOf(n) < 0 && !n.filtered) {
 			n.filtered = true;
 			graph.nodes.forEach(function(d, i) {
-				if (n.id === d.id) {
+				if (n === d) {
 					graph.nodes.splice(i, 1);
 				}
 			});
-		} else if (!n.filtered) console.log("~", n)*/
+		}
 	});
 
 	//	add and remove links from data based on availability of nodes
 	store.links1.forEach(function(l) {
 		if (!(l.source.filtered || l.target.filtered) && l.filtered) {
-			console.log("|", l)
 			l.filtered = false;
 			graph.links1.push(l);
-		} /*else if ((l.source.filtered || l.target.filtered) && !l.filtered) {
-			console.log("\\", l)
+		} else if ((l.source.filtered || l.target.filtered) && !l.filtered) {
 			l.filtered = true;
 			graph.links1.forEach(function(d, i) {
-				if (l.id === d.id) {
+				if (l === d) {
 					graph.links1.splice(i, 1);
 				}
 			});
-		} else if (!l.filtered) console.log(">", l)*/
+		}
 	});			
 }
 
