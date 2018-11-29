@@ -1,0 +1,3164 @@
+<?xml version="1.0"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+  <head>
+    <variable name="subject"/>
+    <variable name="type"/>
+    <variable name="label"/>
+  </head>
+  <results>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/nurse</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://www.w3.org/ns/org#/Role</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Nurse, Medical</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/nurse</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Nurse, Medical</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/acquisition/purchase_Hardy_Street_Bank_building</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Purchase of Hardy Street Bank Building</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/ee</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E21_Person</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Albert Edward (Bert) Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/marriage_hp+ee</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Marriage of Bert &amp; Annie Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/city_mayor</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://www.w3.org/ns/org#/Role</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Mayor</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/Justice_of_the_Peace</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://www.w3.org/ns/org#/Role</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Justice of the Peace</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/publican</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://www.w3.org/ns/org#/Role</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Publican</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/publican</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Publican</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/city_councillor</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://www.w3.org/ns/org#/Role</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Councllor</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/merchant/wine+spirit</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://www.w3.org/ns/org#/Role</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Wine &amp; Spirit Merchant</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/merchant/wine+spirit</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Wine &amp; Spirit Merchant</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/data/thing/vessel/White_Rose</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E18_Physical_Thing</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">HMS White Rose</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Ernest_Arscott</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Birth of Ernest Arscott</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/group/thomas+harriett_familly</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E74_Group</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Thomas &amp; Harriett Arscott family</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Ernest_Arscott</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E21_Person</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Ernest Arscott</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/residence/thomas+harriett_familly</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Thomas &amp; Harriett Arscott residence</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/WWI</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">World War I</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Thomas_Arscott</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E21_Person</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Thomas Arscott</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Harriett_Arscott</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E21_Person</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Harriett Arscott</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Charles_Everett</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E21_Person</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Charles Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/ae</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E21_Person</uri>
+      </binding>
+      <binding name="label">
+        <literal>Albert Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/ag</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E21_Person</uri>
+      </binding>
+      <binding name="label">
+        <literal>Ada Everett (nee Gordon)</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/marriage_ae+ag</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Marriage of Marriage of of Albert &amp; Ada Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/marriage_albert+annie</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Marriage of Albert &amp; Annie Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/hp</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E21_Person</uri>
+      </binding>
+      <binding name="label">
+        <literal>Hannah (Annie) Everett (nee Pope)</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/manager</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://www.w3.org/ns/org#/Role</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Manager</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/manager</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Manager</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ae_nelson_college</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Albert Everett attending Nelson College</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/open_Mot_everett_bros_1</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Opening of Everett Bros. Motueka</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/Mot_everett_bros_store_1</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Everett Bros. Motueka Store</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/Mot_everett_bros_store_1</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Everett Bros. Motueka</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/qualified/ve_nurse</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Viola Everett earns Nursing qualification</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Viola_Everett</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E21_Person</uri>
+      </binding>
+      <binding name="label">
+        <literal>Viola Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/death/ag</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Death of Ada Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/city/Pokororo</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Pokororo</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/Mokueka_Valley</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Motueka Valley</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/eje</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E21_Person</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Edward Jnr Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/group/ae+ag</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E74_Group</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Edward and Hannah Everett family</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/city/Nelson</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Nelson</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/office/nelson_registry</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Nelson City Registry</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/dressmaker</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://www.w3.org/ns/org#/Role</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Dressmaker</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/dressmaker</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Dressmaker</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Frank_Everett</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Birth of  Frank Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Frank_Everett</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E21_Person</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Frank Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/departure/Main_Body_troops_WWI</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Departure of main body of troops to WWI</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/field_gunner</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://www.w3.org/ns/org#/Role</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Field Gunner, Army</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/field_gunner</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Field Gunner, Army</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/building/uren+co</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Uren &amp; Company</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/retail/drapery</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://www.w3.org/ns/org#/Role</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Drapery Store</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/retail/drapery</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Drapery Store</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/marriage_thomas+harriett</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Marriage of Thomas &amp; Harriett Arscott</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/stoker</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://www.w3.org/ns/org#/Role</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Stoker</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/stoker</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Stoker</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/close_Mot_everett_bros_1</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Closing of First Motueka Everett Bros. Store</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Stella_Everett</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E21_Person</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Stella Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/move_to_england</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Relocation to London</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/George_Everett</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E21_Person</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">George Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/country/England</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">England</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/captain/army</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://www.w3.org/ns/org#/Role</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Army Captain</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/captain/army</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Army Captain</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ge_nelson_college_1st_xv</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">George Everett in Nelson College 1st XV</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/group/nelson_college_1st_xv</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E74_Group</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Nelson College 1st XV</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/building/Pelorus_hotel</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Pelorus Hotel</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/everett_farm</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Everett Farm</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/acquisition/Everett_farm</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Charles Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/city/wellington</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Wellington</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/country/australia</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Australia</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/group/ehe_family</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E74_Group</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Edward and Hannah Everett family</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/country/Canada</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Canada</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/twins_NZ_Aray_Nursing_Service</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Everett Twins  join NZ Army Nursing Service</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/group/twins_Claire+Dorothy</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E74_Group</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Twins, Claire and Dorothy Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/country/New_Zealand</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">New Zealand</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/country/India</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">India</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/acquisition/purchase_victoria_house_1</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Purchase of Victoria House</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/group/everett_bros</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E74_Group</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Everett Brothers &amp; Company</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/Everett_bros_store_2</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Operation of Everett Bros. Store</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/Everett_bros_store_1</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Operation of Everett Bros. Store</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/death/George_Everett</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Death of George Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/Fort_Nili_Kache</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Fort Nili Kache</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/John_Everett</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Birth of John</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/John_Everett</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E21_Person</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">John Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/ae+ag_nelson_res</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Albert &amp; Ada Everett residence</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/collingwood_street_villa</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Collinwood St Villa</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Gerald_Everett</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E21_Person</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Gerald Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/suffragettte</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://www.w3.org/ns/org#/Role</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Suffragette</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/suffragettte</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Suffragette</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/Letter/rw_last</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Ralph Watsons last letter from the front</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/ralph_watson</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E21_Person</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Ralph Watson</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/country/France</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">France</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/annie_arscott</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E21_Person</uri>
+      </binding>
+      <binding name="label">
+        <literal>Annie Everett (nee Arscott)</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/william_watson</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E21_Person</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">William Watson</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/farmworker</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://www.w3.org/ns/org#/Role</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Farmhand</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/farmworker</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Farmhand</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/john_scott</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E21_Person</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">John Scott</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/architect</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://www.w3.org/ns/org#/Role</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Architect</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/architect</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Architect</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/city/Timaru</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Timaru</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/street/Dee_street</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Dee Street</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/Everett_bros_store_1</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Everett Bros. Store</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/street/bridge_street</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Bridge Street</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ee_mayor_2nd_term</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Edward Everett 2nd Term as Mayor of Nelson</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/group/NC_Council</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E74_Group</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Nelson City Council</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ve_aus_army_nurse</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Viola Everett joins Australian Army Nursing Corp</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Alfred_Arscott</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Birth of Alfred Ascot</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Alfred_Arscott</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E21_Person</uri>
+      </binding>
+      <binding name="label">
+        <literal>Alfred Arscott</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/marriage_william+annie</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Marriage of William &amp; Annie Watson</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/hotel_keeper</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://www.w3.org/ns/org#/Role</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Hotellier</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/hotel_keeper</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Hotellier</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ge_nelson_college_no2_cadet</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">George Everett joins No 2 Cadets</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/rw_nelson_college</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Ralph Watson enrolment in Nelson College</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/wu_everett_bros_mot</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">William Uren manages Everett Bros. Motueka</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/Mot_everett_bros_store_2</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Everett Bros. Motueka</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/acquisition/wu_everett_bros_mot</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Purchase of Everett Bros. Motueka</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/city/Motueka</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Motueka</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/street/high_street</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">High Street</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Charles_Everett</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Birth of Charles Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/purchaser</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://www.w3.org/ns/org#/Role</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Purchaser</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/purchaser</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Purchaser</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/mil_police_burma</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">assignment to Military Police Burma</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/country/Burma</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Burma</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ve_No27_General_Hospital_Alexandria_Egypt</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Viola Everett assignment to No27 General Hospital Alexandria Egypt</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/group/No27_General_Hospital_Alexandria_Egypt</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E74_Group</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">No 27 General Hospital Alexandria Egypt</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/city/Alexandria</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Alexandria</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/country/egypt</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Egypt</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Frederick_Arscott</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Birth of Frederick Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Frederick_Arscott</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E21_Person</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Frederick Arscott</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/Letter/rw_aug_1916</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Letter sent by Ralph Watson</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/fe_enlistment</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Frank Everett enlist in Army</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/Everett_bros_store_2</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Everett Bros. Store</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/Everett_bros_fire</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Fire at Everett Bros. 1st Store</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/Takaka_everett_bros_store</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Everett Bros. Takaka</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/Takaka_everett_bros_store</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Everett Bros. Takaka</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/city/Takaka</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Takaka</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Dorothy_Everett</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E21_Person</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Dorothy Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ee_mayor_1st_term</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Edward Everett First Term as Mayor of Nelson</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/street/Hardy_Street</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Hardy Street</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/id_assign/Uren+co</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Renaming to Uren &amp; Co.</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ge_nelson_college</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">George Everett enrolment in Nelson College</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Gladys_Everett</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Birth of Gladys Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Gladys_Everett</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E21_Person</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Gladys Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ee_fire_brigade</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Edward Everett joins the Nelson Fire Brigade</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/move_to_nelson_watsons</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Annie &amp; son Ralph move to Nelson</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/rw_Tasman_st_school</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Ralph Watson enrolment in Tasman School</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/fe_nelson_college</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Frank Everett enrolled Nelson College</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/rw_nelson_college_1st_xi</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Ralph Watson in Nelson College 1st XV</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/group/nelson_college_1st_xi</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E74_Group</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Nelson College 1st XI</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Colin_Everett</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Birth of Colin Everett </literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Colin_Everett</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E21_Person</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Colin Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/death/ralph_watson</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Death of Ralph Watson</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/acquisition/purchase_John_Wilsons_Accommodation_House</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en"> Purchase of John Wilsons Accomodation House</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/ag</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Birth of Ada Gordon</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/city/Melbourne</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Melbourne</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Stella_Everett</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Birth of Stella</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/eje</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Birth of Edward Everett Jnr.</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/captain/firebrigade</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://www.w3.org/ns/org#/Role</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Captain Firebrigade</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/captain/firebrigade</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E55_Type</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Captain Firebrigade</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/return_to_baluchistan</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">George Everett return to Baluchistan</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/annie_arscott</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Birth Annie Arscott</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/street/Haven</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Haven Road</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/Everett_bros_store_1_buyer</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Wholesaling for Everett Bros.</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/city/London</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">London</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/id_assign/Pelorus_hotel</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Renaming to Pelorus Hotel</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/ralph_watson</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Birth of Ralph Watson</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/acquisition/purchase_Stafford_House</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Purchase of Stafford House</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/emigration_arscotts</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Emigration of  Arscott Familly</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/battle_of_somme</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Battle of Somme</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/emigration_ehe</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Emigration of Bert &amp; Annie Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/city/Auckland</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Auckland</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ge_nelson_college_head_boy</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">George Everett as Head Boy, Nelson college</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/rw_nelson_central_school</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Enrollment of Ralph Watson in Nelson Central School</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Gerald_Everett</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Birth of Gerald Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/return_to_timaru</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Annie Watson return to Timaru</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/building/Masonic_Hotel</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Masonic Hotel</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/acquisition/purchase_Masonic_Hotel</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Purchase of Masonic Hotel</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/building/John_Wilsons_Accommodation_House</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">John Williams Accomodation House</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/city/canvastown</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Canvastown</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/twins_No2_NZ_General_Hospital</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Everett Twins assignment to No2 NZ General Hospital</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/group/No2_NZ_General_Hospital</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E74_Group</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">No 2 New Zealand General Hospital</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/city/Walton_on_Thames</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Walton on Thames</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/com_Brit_army</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">George Everett earns a commission in the British Army</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Claire_Everett</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E21_Person</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Claire Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ee_councillor</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Edward Everett becomes City Councillor</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ae_everett_bros</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Albert Joining Everett Bros.</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/formation_everett_bros</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Formation of Everett Bros. &amp; Co,</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/building/Hardy_Street_Bank_building</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Hardy Street Bank</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/67th_punjabis</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Joining the 67th Punjabis Military Unit</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/divorce_william+annie</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Divorce of Annie from William Watson</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/move_victoria_house_1</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Merger of Victoria House to Everett Bros.</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/victoria_house_1</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Victoria House</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/street/trafalgar_street</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Trafalgar Street</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/everett_farm</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Operation of Everett Farm</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/ae</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Birth of Albert Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/open_Mot_everett_bros_2</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Opening of 2nd Everett Bros. Motueka</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/Mot_everett_bros_store_2</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Everett Bros. Motueka Store</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/ee</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Birth of Edward Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/data/thing/apples</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E18_Physical_Thing</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Charles Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/death/ws</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Death of William Snow</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/ws</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E21_Person</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">William Snow</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/George_Everett</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Birth of George Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ee_justice_of_the_peace</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Edward Everett becomes Justice of he Peace</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Viola_Everett</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Birth of Viola</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/open_everett_bros_1</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Opening of 1st Everett Bros. Store</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/move_ae_dun_chch</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Albert Everett time in Christchurch and Dunedin</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/ve_return_aus</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Viola Everett return to Australia</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/data/thing/vessel/Sir_Edward_Paget</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E18_Physical_Thing</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">HMS Sir Edward Paget</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/Claire+Dorothy_Everett</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Birth of twins, Claire and Dorothy Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/rw_enlistment</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Ralph Watson enlistment in Army</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/open_Takaka_everett_bros</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Opening of Everett Bros. Takaka</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/birth/AEE</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Birth of Albert Edward (Bert) Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/disertion_william</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Desertion of William Watson from Annie</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/ge_enlistment</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">George Everett enlistment in Army</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/building/Stafford_House</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E53_Place</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Stafford House</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/qualified/twins_nurse</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E5_Event</uri>
+      </binding>
+      <binding name="label">
+        <literal xml:lang="en">Everett Twins qualify as Nurses</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://www.theprow.org.nz/assets/Your_stories/Everett-Albert-on-his-Pokororo-farm.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://www.theprow.org.nz/assets/Your_stories/Everett-Albert-on-his-Pokororo-farm.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/71225</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/71225</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/39073</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/39073</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/67049</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/67049</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/13125</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/13125</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/81769.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/81769.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/P55144</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/P55144</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://www.theprow.org.nz/assets/Your_stories/Everett-Nurses-at-Walton-on-Thames.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://www.theprow.org.nz/assets/Your_stories/Everett-Nurses-at-Walton-on-Thames.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/62501</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/62501</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/72389.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/72389.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/77351.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/77351.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/13124</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/13124</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/17225</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/17225</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/90520</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/90520</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/isaacs%20and%20clark/7103.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/isaacs%20and%20clark/7103.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/isaacs%20and%20clark/6996.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/isaacs%20and%20clark/6996.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/medium/photography/tyree%20studio/89443.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/medium/photography/tyree%20studio/89443.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/29606</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/29606</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://www.theprow.org.nz/assets/Your_stories/Everett-Captain-George-Gordon.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://www.theprow.org.nz/assets/Your_stories/Everett-Captain-George-Gordon.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/36391.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/36391.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/40456</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/40456</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/40452</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/40452</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/80759</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/80759</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/34793</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/34793</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/34726</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/34726</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/P55151</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/P55151</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/60792</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/60792</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://www.theprow.org.nz/assets/Your_stories/Everett-Ralph-Watson.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://www.theprow.org.nz/assets/Your_stories/Everett-Ralph-Watson.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/60405</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/60405</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/74318.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/74318.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/74319.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/74319.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/36635</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/36635</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/davis/757.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/davis/757.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/davis/7074.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/davis/7074.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/w%20e%20brown/11412.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/w%20e%20brown/11412.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/P35295</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/P35295</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/180285.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/180285.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/84227.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/84227.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/36858</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/36858</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://www.teara.govt.nz/en/artwork/28823/edward-staffords-house</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://www.teara.govt.nz/en/artwork/28823/edward-staffords-house</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/w%20e%20brown/13073.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/w%20e%20brown/13073.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://nz.speakingsame.com/house_img.php?t=0&amp;id=47431&amp;seq=0&amp;addr=29+Collingwood+Street&amp;region=Nelson+%26+Bays&amp;city=Nelson</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://nz.speakingsame.com/house_img.php?t=0&amp;id=47431&amp;seq=0&amp;addr=29+Collingwood+Street&amp;region=Nelson+%26+Bays&amp;city=Nelson</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://www.theprow.org.nz/assets/Your_stories/Everett-bros-Nelson.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://www.theprow.org.nz/assets/Your_stories/Everett-bros-Nelson.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/32638.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/32638.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/34911.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/34911.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://www.theprow.org.nz/assets/Your_stories/Everett-Bros-Motueka-1902.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://www.theprow.org.nz/assets/Your_stories/Everett-Bros-Motueka-1902.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/33227</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/33227</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/fn%20jones/321249.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/fn%20jones/321249.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/P27048</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/P27048</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/43870.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/38_Image</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/43870.jpg</uri>
+      </binding>
+      <binding name="type">
+        <uri>http://erlangen-crm.org/current/E31_Document</uri>
+      </binding>
+    </result>
+  </results>
+</sparql>
