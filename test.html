@@ -151,7 +151,8 @@ d3.xml("tracery.xml", function(err, links) {
 	store.nodes = d3.values(nodes)
 	store.links1 = links
 
-	filter(store.nodes[0].peers)
+	//filter(store.nodes[0].peers)
+       filter(nodes["http://tracery.openwork.nz/data/people/eje"].peers)
 	update()
        
 });
@@ -168,16 +169,27 @@ function update() {
 	var newNode = node.enter().append("circle")
 		.attr("class", "node")
 		.attr("r", radius)
-        .attr("fill", function(d) {return color(kindLabel.nodes[d.name].kind);})
-		.on("mouseover", function(d) {
+        
+		.on("click", function(d) {
 			filter(d.peers)
 			update()
 		})
 
     newNode.append("title")
-      .text(function(d) { return d.name; });
+        .text(function(d) {
+          var labelling = kindLabel.nodes[d.name]
+          if (!labelling) return d.name
+          return labelling.label;
+          })
+      ;
 	//	ENTER + UPDATE
-	node = node.merge(newNode);
+    node = node.merge(newNode)
+    .attr("fill", function(d) {
+          var labelling = kindLabel.nodes[d.name]
+          if (!labelling) return "gray"
+          return color(labelling.kind)
+    })
+  
 
 	//	UPDATE
 	link = link.data(graph.links1, function(d) { return d.id;});
