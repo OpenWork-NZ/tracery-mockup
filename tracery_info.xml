@@ -7,6 +7,22 @@
   <results>
     <result>
       <binding name="subject">
+        <uri>http://erlangen-crm.org/current/P59i_is_located_on_or_within</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">location</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/34726</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
         <uri>http://tracery.openwork.nz/data/role/nurse</uri>
       </binding>
       <binding name="info">
@@ -47,66 +63,26 @@
     </result>
     <result>
       <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/event/activity/joining/marriage_hp+ee</uri>
+        <uri>https://collection.nelsonmuseum.co.nz/objects/60792</uri>
       </binding>
       <binding name="info">
-        <literal xml:lang="en">Marriage of Bert &amp; Annie Everett</literal>
+        <literal>&lt;img&gt;</literal>
       </binding>
     </result>
     <result>
       <binding name="subject">
-        <uri>http://erlangen-crm.org/current/P2_has_type</uri>
+        <uri>http://www.theprow.org.nz/assets/Your_stories/Everett-bros-Nelson.jpg</uri>
       </binding>
       <binding name="info">
-        <literal xml:lang="en">Type</literal>
+        <literal>&lt;img&gt;</literal>
       </binding>
     </result>
     <result>
       <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/role/city_mayor</uri>
+        <uri>http://adb.anu.edu.au/biography/everett-gladys-gordon-10134</uri>
       </binding>
       <binding name="info">
-        <literal xml:lang="en">Mayor</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/role/Justice_of_the_Peace</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">Justice of the Peace</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/role/publican</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">Publican</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/role/city_councillor</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">Councllor</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/role/merchant/wine+spirit</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">Wine &amp; Spirit Merchant</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/role/merchant/wine+spirit</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">Wine &amp; spirit merchant</literal>
+        <literal>&lt;doc&gt;</literal>
       </binding>
     </result>
     <result>
@@ -159,34 +135,10 @@
     </result>
     <result>
       <binding name="subject">
-        <uri>http://erlangen-crm.org/current/P157i_occupied</uri>
+        <uri>http://tracery.openwork.nz/data/people/Charles_Everett</uri>
       </binding>
       <binding name="info">
-        <literal xml:lang="en">Occupied</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/place/residence/thomas+harriett_familly</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">Thomas &amp; Harriett Arscott residence</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
-        <uri>http://erlangen-crm.org/current/P11i_participated_in</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">Participant</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/event/WWI</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">World War I</literal>
+        <literal xml:lang="en">Charles Everett</literal>
       </binding>
     </result>
     <result>
@@ -199,74 +151,10 @@
     </result>
     <result>
       <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/people/Thomas_Arscott</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">Thomas Arscott</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/people/Harriett_Arscott</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">Harriett Arscott</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/people/Charles_Everett</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">Charles Everett</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
         <uri>http://tracery.openwork.nz/data/people/ae</uri>
       </binding>
       <binding name="info">
         <literal>Albert Everett</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/people/ag</uri>
-      </binding>
-      <binding name="info">
-        <literal>Ada Everett (nee Gordon)</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
-        <uri>http://erlangen-crm.org/current/P1431_was_joined_by</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">Joined</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/event/activity/joining/marriage_ae+ag</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">Marriage of Marriage of of Albert &amp; Ada Everett</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/event/activity/joining/marriage_albert+annie</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">Marriage of Albert &amp; Annie Everett</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/event/activity/joining/marriage_albert+annie</uri>
-      </binding>
-      <binding name="info">
-        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1913-09-10</literal>
       </binding>
     </result>
     <result>
@@ -279,18 +167,50 @@
     </result>
     <result>
       <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/role/manager</uri>
+        <uri>http://tracery.openwork.nz/data/people/ag</uri>
       </binding>
       <binding name="info">
-        <literal xml:lang="en">Manager</literal>
+        <literal>Ada Everett (nee Gordon)</literal>
       </binding>
     </result>
     <result>
       <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/role/manager</uri>
+        <uri>http://erlangen-crm.org/current/P2_has_type</uri>
       </binding>
       <binding name="info">
-        <literal>Manager</literal>
+        <literal xml:lang="en">Type</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/purchaser</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Purchaser</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/purchaser</uri>
+      </binding>
+      <binding name="info">
+        <literal>Purchaser</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://www.theprow.org.nz/assets/Your_stories/Everett-Albert-on-his-Pokororo-farm.jpg</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/P55144</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
       </binding>
     </result>
     <result>
@@ -375,14 +295,6 @@
     </result>
     <result>
       <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/place/Mot_everett_bros_store_1</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">Everett Bros. Motueka</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
         <uri>http://tracery.openwork.nz/data/event/qualified/ve_nurse</uri>
       </binding>
       <binding name="info">
@@ -455,10 +367,26 @@
     </result>
     <result>
       <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/place/Mokueka_Valley</uri>
+        <uri>https://collection.nelsonmuseum.co.nz/objects/P27048</uri>
       </binding>
       <binding name="info">
-        <literal xml:lang="en">Motueka Valley</literal>
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/34793</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/43870.jpg</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
       </binding>
     </result>
     <result>
@@ -471,34 +399,82 @@
     </result>
     <result>
       <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/people/group/ae+ag</uri>
+        <uri>http://tracery.openwork.nz/data/role/manager</uri>
       </binding>
       <binding name="info">
-        <literal xml:lang="en">Edward and Hannah Everett family</literal>
+        <literal xml:lang="en">Manager</literal>
       </binding>
     </result>
     <result>
       <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/place/city/Nelson</uri>
+        <uri>http://tracery.openwork.nz/data/role/manager</uri>
       </binding>
       <binding name="info">
-        <literal xml:lang="en">Nelson</literal>
+        <literal>Manager</literal>
       </binding>
     </result>
     <result>
       <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/place/office/nelson_registry</uri>
+        <uri>https://collection.nelsonmuseum.co.nz/objects/90520</uri>
       </binding>
       <binding name="info">
-        <literal xml:lang="en">Nelson City Registry</literal>
+        <literal>&lt;img&gt;</literal>
       </binding>
     </result>
     <result>
       <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/place/office/nelson_registry</uri>
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/isaacs%20and%20clark/7103.jpg</uri>
       </binding>
       <binding name="info">
-        <literal xml:lang="en">Nelson Registry Office</literal>
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/isaacs%20and%20clark/6996.jpg</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://erlangen-crm.org/current/P1431_was_joined_by</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Joined</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/marriage_ae+ag</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Marriage of Marriage of of Albert &amp; Ada Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/marriage_albert+annie</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Marriage of Albert &amp; Annie Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/marriage_albert+annie</uri>
+      </binding>
+      <binding name="info">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1913-09-10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/71225</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
       </binding>
     </result>
     <result>
@@ -519,6 +495,14 @@
     </result>
     <result>
       <binding name="subject">
+        <uri>http://erlangen-crm.org/current/P37_assigned</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Named</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
         <uri>http://tracery.openwork.nz/data/event/birth/Frank_Everett</uri>
       </binding>
       <binding name="info">
@@ -527,34 +511,18 @@
     </result>
     <result>
       <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/city/Nelson</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Nelson</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
         <uri>http://tracery.openwork.nz/data/people/Frank_Everett</uri>
       </binding>
       <binding name="info">
         <literal xml:lang="en">Frank Everett</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/event/departure/Main_Body_troops_WWI</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">Departure of main body of troops to WWI</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/role/field_gunner</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">Field Gunner, Army</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/role/field_gunner</uri>
-      </binding>
-      <binding name="info">
-        <literal>Field Gunner, Military</literal>
       </binding>
     </result>
     <result>
@@ -583,6 +551,38 @@
     </result>
     <result>
       <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/w%20e%20brown/13073.jpg</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/36858</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://erlangen-crm.org/current/P29_custody_received_by</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">received</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Thomas_Arscott</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Thomas Arscott</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
         <uri>http://tracery.openwork.nz/data/event/activity/joining/marriage_thomas+harriett</uri>
       </binding>
       <binding name="info">
@@ -595,6 +595,22 @@
       </binding>
       <binding name="info">
         <literal xml:lang="en">Stoker</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://www.theprow.org.nz/assets/Your_stories/Everett-Ralph-Watson.jpg</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://erlangen-crm.org/current/P51i_is_former_or_current_owner_of</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Owner</literal>
       </binding>
     </result>
     <result>
@@ -619,6 +635,54 @@
       </binding>
       <binding name="info">
         <literal xml:lang="en">Stella Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/74318.jpg</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/60405</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/40456</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/80759</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/74319.jpg</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/P55151</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
       </binding>
     </result>
     <result>
@@ -663,14 +727,6 @@
     </result>
     <result>
       <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/role/captain/army</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">Army Captain</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
         <uri>http://tracery.openwork.nz/data/event/activity/joining/ge_nelson_college_1st_xv</uri>
       </binding>
       <binding name="info">
@@ -711,10 +767,26 @@
     </result>
     <result>
       <binding name="subject">
+        <uri>http://collections.aucklandmuseum.com/ontology/core/transportShip</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Ship</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
         <uri>http://tracery.openwork.nz/data/place/building/Pelorus_hotel</uri>
       </binding>
       <binding name="info">
         <literal xml:lang="en">Pelorus Hotel</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://paperspast.natlib.govt.nz/newspapers/NENZC18640528.2.37.1</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;doc&gt;</literal>
       </binding>
     </result>
     <result>
@@ -743,10 +815,26 @@
     </result>
     <result>
       <binding name="subject">
+        <uri>http://www.theprow.org.nz/enterprise/apple-industry/</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;doc&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
         <uri>http://tracery.openwork.nz/data/place/city/wellington</uri>
       </binding>
       <binding name="info">
         <literal xml:lang="en">Wellington</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/180285.jpg</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
       </binding>
     </result>
     <result>
@@ -759,10 +847,26 @@
     </result>
     <result>
       <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/13124</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
         <uri>http://tracery.openwork.nz/data/people/group/ehe_family</uri>
       </binding>
       <binding name="info">
         <literal xml:lang="en">Edward and Hannah Everett family</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/13125</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
       </binding>
     </result>
     <result>
@@ -779,6 +883,22 @@
       </binding>
       <binding name="info">
         <literal xml:lang="en">Canada</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/city_mayor</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Mayor</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://www.theprow.org.nz/people/mayors-of-nelson/#.W_3DjC17EWo</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;doc&gt;</literal>
       </binding>
     </result>
     <result>
@@ -815,6 +935,78 @@
     </result>
     <result>
       <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/marriage_hp+ee</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Marriage of Bert &amp; Annie Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/Justice_of_the_Peace</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Justice of the Peace</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/publican</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Publican</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/city_councillor</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Councllor</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/captain/fire_brigade</uri>
+      </binding>
+      <binding name="info">
+        <literal>Captain Fire Brigade</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/merchant/wine+spirit</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Wine &amp; Spirit Merchant</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/merchant/wine+spirit</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Wine &amp; spirit merchant</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/17225</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/29606</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
         <uri>http://tracery.openwork.nz/data/place/country/India</uri>
       </binding>
       <binding name="info">
@@ -835,38 +1027,6 @@
       </binding>
       <binding name="info">
         <literal xml:lang="en">Everett Brothers &amp; Company</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
-        <uri>http://erlangen-crm.org/current/P151i_participated_in</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">Participant</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/event/activity/Everett_bros_store_2</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">Operation of Everett Bros. Store</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
-        <uri>http://erlangen-crm.org/current/pP151i_participated_in</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">participant</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/event/activity/Everett_bros_store_1</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">Operation of Everett Bros. Store</literal>
       </binding>
     </result>
     <result>
@@ -903,6 +1063,14 @@
     </result>
     <result>
       <binding name="subject">
+        <uri>https://paperspast.natlib.govt.nz/newspapers/MEX19170508.2.35</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;doc&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
         <uri>http://tracery.openwork.nz/data/place/Fort_Nili_Kache</uri>
       </binding>
       <binding name="info">
@@ -919,18 +1087,18 @@
     </result>
     <result>
       <binding name="subject">
-        <bnode>b4</bnode>
+        <uri>http://tracery.openwork.nz/data/place/office/nelson_registry</uri>
       </binding>
       <binding name="info">
-        <literal>NOrth-West Frontier</literal>
+        <literal xml:lang="en">Nelson City Registry</literal>
       </binding>
     </result>
     <result>
       <binding name="subject">
-        <uri>http://erlangen-crm.org/current/P53_has_current_or_former_location</uri>
+        <uri>http://tracery.openwork.nz/data/place/office/nelson_registry</uri>
       </binding>
       <binding name="info">
-        <literal xml:lang="en">location</literal>
+        <literal xml:lang="en">Nelson Registry Office</literal>
       </binding>
     </result>
     <result>
@@ -951,6 +1119,22 @@
     </result>
     <result>
       <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/group/ae+ag</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Edward and Hannah Everett family</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://erlangen-crm.org/current/P157i_occupied</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Occupied</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
         <uri>http://tracery.openwork.nz/data/place/ae+ag_nelson_res</uri>
       </binding>
       <binding name="info">
@@ -959,10 +1143,10 @@
     </result>
     <result>
       <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/place/collingwood_street_villa</uri>
+        <uri>https://collection.nelsonmuseum.co.nz/objects/P35295</uri>
       </binding>
       <binding name="info">
-        <literal xml:lang="en">Collinwood St Villa</literal>
+        <literal>&lt;img&gt;</literal>
       </binding>
     </result>
     <result>
@@ -975,10 +1159,66 @@
     </result>
     <result>
       <binding name="subject">
-        <uri>http://erlangen-crm.org/current/P25_moved</uri>
+        <uri>http://erlangen-crm.org/current/P11i_participated_in</uri>
       </binding>
       <binding name="info">
-        <literal xml:lang="en">move</literal>
+        <literal xml:lang="en">Participant</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/WWI</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">World War I</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/departure/Main_Body_troops_WWI</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Departure of main body of troops to WWI</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/field_gunner</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Field Gunner, Army</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/field_gunner</uri>
+      </binding>
+      <binding name="info">
+        <literal>Field Gunner, Military</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://ndhadeliver.natlib.govt.nz/delivery/DeliveryManagerServlet?dps_pid=IE15212410</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;doc&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://paperspast.natlib.govt.nz/newspapers/WDT19041222.2.27</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;doc&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://paperspast.natlib.govt.nz/newspapers/THD19160801.2.25</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;doc&gt;</literal>
       </binding>
     </result>
     <result>
@@ -995,6 +1235,14 @@
       </binding>
       <binding name="info">
         <literal xml:lang="en">Women suffrage supporter</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://www.theprow.org.nz/society/suffragettes/#.W_3Kly17EWo</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;doc&gt;</literal>
       </binding>
     </result>
     <result>
@@ -1023,14 +1271,6 @@
     </result>
     <result>
       <binding name="subject">
-        <uri>http://erlangen-crm.org/current/P29_custody_received_by</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">received</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
         <uri>http://tracery.openwork.nz/data/place/country/France</uri>
       </binding>
       <binding name="info">
@@ -1039,34 +1279,18 @@
     </result>
     <result>
       <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/people/annie_arscott</uri>
+        <uri>http://erlangen-crm.org/current/p140_assigned_attribute_to</uri>
       </binding>
       <binding name="info">
-        <literal>Annie Everett (nee Arscott)</literal>
+        <literal xml:lang="en">named</literal>
       </binding>
     </result>
     <result>
       <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/people/william_watson</uri>
+        <uri>http://tracery.openwork.nz/data/place/collingwood_street_villa</uri>
       </binding>
       <binding name="info">
-        <literal xml:lang="en">William Watson</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/role/farmworker</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">Farmhand</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/role/farmworker</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">mixed farms and orchards worker</literal>
+        <literal xml:lang="en">Collinwood St Villa</literal>
       </binding>
     </result>
     <result>
@@ -1087,22 +1311,6 @@
     </result>
     <result>
       <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/role/architect</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">Architect</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/role/architect</uri>
-      </binding>
-      <binding name="info">
-        <literal>Architect</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
         <uri>http://tracery.openwork.nz/data/place/city/Timaru</uri>
       </binding>
       <binding name="info">
@@ -1111,10 +1319,10 @@
     </result>
     <result>
       <binding name="subject">
-        <uri>http://erlangen-crm.org/current/P59i_is_located_on_or_within</uri>
+        <uri>http://tracery.openwork.nz/data/place/residence/thomas+harriett_familly</uri>
       </binding>
       <binding name="info">
-        <literal xml:lang="en">location</literal>
+        <literal xml:lang="en">Thomas &amp; Harriett Arscott residence</literal>
       </binding>
     </result>
     <result>
@@ -1127,6 +1335,14 @@
     </result>
     <result>
       <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/Everett_bros_store_1</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Operation of Everett Bros. Store</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
         <uri>http://tracery.openwork.nz/data/place/Everett_bros_store_1</uri>
       </binding>
       <binding name="info">
@@ -1135,10 +1351,18 @@
     </result>
     <result>
       <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/place/street/bridge_street</uri>
+        <uri>http://erlangen-crm.org/current/pP151i_participated_in</uri>
       </binding>
       <binding name="info">
-        <literal xml:lang="en">Bridge Street</literal>
+        <literal xml:lang="en">participant</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://paperspast.natlib.govt.nz/newspapers/NEM19010907.2.34.9</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;doc&gt;</literal>
       </binding>
     </result>
     <result>
@@ -1191,34 +1415,50 @@
     </result>
     <result>
       <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/event/activity/joining/marriage_william+annie</uri>
+        <uri>http://tracery.openwork.nz/data/people/annie_arscott</uri>
       </binding>
       <binding name="info">
-        <literal xml:lang="en">Marriage of William &amp; Annie Watson</literal>
+        <literal>Annie Everett (nee Arscott)</literal>
       </binding>
     </result>
     <result>
       <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/event/activity/joining/marriage_william+annie</uri>
+        <uri>http://tracery.openwork.nz/data/people/william_watson</uri>
       </binding>
       <binding name="info">
-        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1897-01-00</literal>
+        <literal xml:lang="en">William Watson</literal>
       </binding>
     </result>
     <result>
       <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/role/hotel_keeper</uri>
+        <uri>http://tracery.openwork.nz/data/role/farmworker</uri>
       </binding>
       <binding name="info">
-        <literal xml:lang="en">Hotellier</literal>
+        <literal xml:lang="en">Farmhand</literal>
       </binding>
     </result>
     <result>
       <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/role/hotel_keeper</uri>
+        <uri>http://tracery.openwork.nz/data/role/farmworker</uri>
       </binding>
       <binding name="info">
-        <literal xml:lang="en">Hotel keeper</literal>
+        <literal xml:lang="en">mixed farms and orchards worker</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://paperspast.natlib.govt.nz/newspapers/THD19161101.2.38</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;doc&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://ndhadeliver.natlib.govt.nz/delivery/DeliveryManagerServlet?dps_pid=IE11483442</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;doc&gt;</literal>
       </binding>
     </result>
     <result>
@@ -1239,6 +1479,14 @@
     </result>
     <result>
       <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/67049</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
         <uri>http://tracery.openwork.nz/data/event/activity/joining/rw_nelson_college</uri>
       </binding>
       <binding name="info">
@@ -1247,7 +1495,7 @@
     </result>
     <result>
       <binding name="subject">
-        <bnode>b5</bnode>
+        <bnode>b4</bnode>
       </binding>
       <binding name="info">
         <literal datatype="http://www.w3.org/2001/XMLSchemadate">1911-00-00</literal>
@@ -1255,7 +1503,7 @@
     </result>
     <result>
       <binding name="subject">
-        <bnode>b5</bnode>
+        <bnode>b4</bnode>
       </binding>
       <binding name="info">
         <literal datatype="http://www.w3.org/2001/XMLSchemadate">1914-00-00</literal>
@@ -1279,30 +1527,6 @@
     </result>
     <result>
       <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/event/acquisition/wu_everett_bros_mot</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">Purchase of Everett Bros. Motueka</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/place/city/Motueka</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">Motueka</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/place/street/high_street</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">High Street</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
         <uri>http://tracery.openwork.nz/data/event/birth/Charles_Everett</uri>
       </binding>
       <binding name="info">
@@ -1311,18 +1535,10 @@
     </result>
     <result>
       <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/role/purchaser</uri>
+        <uri>http://erlangen-crm.org/current/P146_separated_from</uri>
       </binding>
       <binding name="info">
-        <literal xml:lang="en">Purchaser</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/role/purchaser</uri>
-      </binding>
-      <binding name="info">
-        <literal>Purchaser</literal>
+        <literal xml:lang="en">Separated</literal>
       </binding>
     </result>
     <result>
@@ -1343,7 +1559,7 @@
     </result>
     <result>
       <binding name="subject">
-        <bnode>b6</bnode>
+        <bnode>b5</bnode>
       </binding>
       <binding name="info">
         <literal datatype="http://www.w3.org/2001/XMLSchemadate">1916-00-00</literal>
@@ -1351,10 +1567,34 @@
     </result>
     <result>
       <binding name="subject">
-        <bnode>b6</bnode>
+        <bnode>b5</bnode>
       </binding>
       <binding name="info">
         <literal datatype="http://www.w3.org/2001/XMLSchemadate">1913-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/33227</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://nz.speakingsame.com/house_img.php?t=0&amp;amp;id=47431&amp;amp;seq=0&amp;amp;addr=29+Collingwood+Street&amp;amp;region=Nelson+%26+Bays&amp;amp;city=Nelson</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://nz.speakingsame.com/house_img.php?t=0&amp;amp;id=47431&amp;amp;seq=0&amp;amp;addr=29+Collingwood+Street&amp;amp;region=Nelson+%26+Bays&amp;amp;city=Nelson</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;doc&gt;</literal>
       </binding>
     </result>
     <result>
@@ -1391,6 +1631,30 @@
     </result>
     <result>
       <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/acquisition/wu_everett_bros_mot</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Purchase of Everett Bros. Motueka</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/city/Motueka</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Motueka</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/street/high_street</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">High Street</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
         <uri>http://tracery.openwork.nz/data/event/birth/Frederick_Arscott</uri>
       </binding>
       <binding name="info">
@@ -1423,6 +1687,14 @@
     </result>
     <result>
       <binding name="subject">
+        <uri>https://paperspast.natlib.govt.nz/newspapers/THD19161010.2.6</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;doc&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
         <uri>http://tracery.openwork.nz/data/event/activity/joining/fe_enlistment</uri>
       </binding>
       <binding name="info">
@@ -1435,6 +1707,30 @@
       </binding>
       <binding name="info">
         <literal datatype="http://www.w3.org/2001/XMLSchemadate">1914-08-14</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/architect</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Architect</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/architect</uri>
+      </binding>
+      <binding name="info">
+        <literal>Architect</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://thecommunityarchive.org.nz/node/71714/description</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;doc&gt;</literal>
       </binding>
     </result>
     <result>
@@ -1471,10 +1767,18 @@
     </result>
     <result>
       <binding name="subject">
-        <uri>http://erlangen-crm.org/current/P13_destroyed</uri>
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/34911.jpg</uri>
       </binding>
       <binding name="info">
-        <literal xml:lang="en">Destroyed</literal>
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/32638.jpg</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
       </binding>
     </result>
     <result>
@@ -1495,10 +1799,42 @@
     </result>
     <result>
       <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/place/city/Takaka</uri>
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/marriage_william+annie</uri>
       </binding>
       <binding name="info">
-        <literal xml:lang="en">Takaka</literal>
+        <literal xml:lang="en">Marriage of William &amp; Annie Watson</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/joining/marriage_william+annie</uri>
+      </binding>
+      <binding name="info">
+        <literal datatype="http://www.w3.org/2001/XMLSchemadate">1897-01-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/people/Harriett_Arscott</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Harriett Arscott</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/81769.jpg</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://sites.rootsweb.com/~nzlscant/timaru_roll.htm</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;doc&gt;</literal>
       </binding>
     </result>
     <result>
@@ -1507,6 +1843,46 @@
       </binding>
       <binding name="info">
         <literal xml:lang="en">Dorothy Everett</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://www.theprow.org.nz/assets/Your_stories/Everett-Nurses-at-Walton-on-Thames.jpg</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/62501</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/72389.jpg</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://www.nzans.org/Nurses%20Who%20Served/Full%20NZANS%20WW1%20e-j%20Roll.html</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;doc&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/84227.jpg</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
       </binding>
     </result>
     <result>
@@ -1535,22 +1911,6 @@
     </result>
     <result>
       <binding name="subject">
-        <uri>http://erlangen-crm.org/current/P37_assigned</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">Named</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
-        <uri>http://erlangen-crm.org/current/p140_assigned_attribute_to</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">named</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
         <uri>http://tracery.openwork.nz/data/event/activity/joining/ge_nelson_college</uri>
       </binding>
       <binding name="info">
@@ -1559,7 +1919,7 @@
     </result>
     <result>
       <binding name="subject">
-        <bnode>b7</bnode>
+        <bnode>b6</bnode>
       </binding>
       <binding name="info">
         <literal datatype="http://www.w3.org/2001/XMLSchemadate">1911-00-00</literal>
@@ -1567,7 +1927,7 @@
     </result>
     <result>
       <binding name="subject">
-        <bnode>b7</bnode>
+        <bnode>b6</bnode>
       </binding>
       <binding name="info">
         <literal datatype="http://www.w3.org/2001/XMLSchemadate">1914-00-00</literal>
@@ -1575,7 +1935,7 @@
     </result>
     <result>
       <binding name="subject">
-        <bnode>b8</bnode>
+        <bnode>b7</bnode>
       </binding>
       <binding name="info">
         <literal datatype="http://www.w3.org/2001/XMLSchemadate">1904-00-00</literal>
@@ -1583,7 +1943,7 @@
     </result>
     <result>
       <binding name="subject">
-        <bnode>b8</bnode>
+        <bnode>b7</bnode>
       </binding>
       <binding name="info">
         <literal datatype="http://www.w3.org/2001/XMLSchemadate">1900-00-00</literal>
@@ -1623,6 +1983,14 @@
     </result>
     <result>
       <binding name="subject">
+        <uri>http://erlangen-crm.org/current/P25_moved</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">move</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
         <uri>http://tracery.openwork.nz/data/event/activity/joining/rw_Tasman_st_school</uri>
       </binding>
       <binding name="info">
@@ -1631,7 +1999,7 @@
     </result>
     <result>
       <binding name="subject">
-        <bnode>b9</bnode>
+        <bnode>b8</bnode>
       </binding>
       <binding name="info">
         <literal datatype="http://www.w3.org/2001/XMLSchemadate">1905-00-00</literal>
@@ -1639,10 +2007,26 @@
     </result>
     <result>
       <binding name="subject">
-        <bnode>b9</bnode>
+        <bnode>b8</bnode>
       </binding>
       <binding name="info">
         <literal datatype="http://www.w3.org/2001/XMLSchemadate">1908-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://erlangen-crm.org/current/P151i_participated_in</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Participant</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/event/activity/Everett_bros_store_2</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Operation of Everett Bros. Store</literal>
       </binding>
     </result>
     <result>
@@ -1655,7 +2039,7 @@
     </result>
     <result>
       <binding name="subject">
-        <bnode>b10</bnode>
+        <bnode>b9</bnode>
       </binding>
       <binding name="info">
         <literal datatype="http://www.w3.org/2001/XMLSchemadate">1911-00-00</literal>
@@ -1663,7 +2047,7 @@
     </result>
     <result>
       <binding name="subject">
-        <bnode>b10</bnode>
+        <bnode>b9</bnode>
       </binding>
       <binding name="info">
         <literal datatype="http://www.w3.org/2001/XMLSchemadate">1914-00-00</literal>
@@ -1687,7 +2071,7 @@
     </result>
     <result>
       <binding name="subject">
-        <bnode>b11</bnode>
+        <bnode>b10</bnode>
       </binding>
       <binding name="info">
         <literal datatype="http://www.w3.org/2001/XMLSchemadate">1911-00-00</literal>
@@ -1695,10 +2079,26 @@
     </result>
     <result>
       <binding name="subject">
-        <bnode>b11</bnode>
+        <bnode>b10</bnode>
       </binding>
       <binding name="info">
         <literal datatype="http://www.w3.org/2001/XMLSchemadate">1914-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://erlangen-crm.org/current/P114_is_equal_in_time_to</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Date</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://en.wikipedia.org/wiki/Canvastown</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;doc&gt;</literal>
       </binding>
     </result>
     <result>
@@ -1735,10 +2135,18 @@
     </result>
     <result>
       <binding name="subject">
-        <uri>http://erlangen-crm.org/current/P114_is_equal_in_time_to</uri>
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/fn%20jones/321249.jpg</uri>
       </binding>
       <binding name="info">
-        <literal xml:lang="en">Date</literal>
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://nzhistory.govt.nz/war/the-battle-of-the-somme</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;doc&gt;</literal>
       </binding>
     </result>
     <result>
@@ -1815,6 +2223,22 @@
     </result>
     <result>
       <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/captain/army</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Army Captain</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/street/bridge_street</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Bridge Street</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
         <uri>http://tracery.openwork.nz/data/event/birth/annie_arscott</uri>
       </binding>
       <binding name="info">
@@ -1831,10 +2255,42 @@
     </result>
     <result>
       <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/39073</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/40452</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
         <uri>http://tracery.openwork.nz/data/place/street/Haven</uri>
       </binding>
       <binding name="info">
         <literal xml:lang="en">Haven Road</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <bnode>b11</bnode>
+      </binding>
+      <binding name="info">
+        <literal>NOrth-West Frontier</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://erlangen-crm.org/current/P53_has_current_or_former_location</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">location</literal>
       </binding>
     </result>
     <result>
@@ -1859,6 +2315,22 @@
       </binding>
       <binding name="info">
         <literal xml:lang="en">Renaming to Pelorus Hotel</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/77351.jpg</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/city/Takaka</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Takaka</literal>
       </binding>
     </result>
     <result>
@@ -1903,10 +2375,18 @@
     </result>
     <result>
       <binding name="subject">
-        <uri>http://collections.aucklandmuseum.com/ontology/core/transportShip</uri>
+        <uri>http://www.teara.govt.nz/en/artwork/28823/edward-staffords-house</uri>
       </binding>
       <binding name="info">
-        <literal xml:lang="en">Ship</literal>
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/davis/7074.jpg</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
       </binding>
     </result>
     <result>
@@ -1915,6 +2395,14 @@
       </binding>
       <binding name="info">
         <literal xml:lang="en">Battle of Somme</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://www.theprow.org.nz/assets/Your_stories/Everett.-A-Gun-Pit-in-the-Somme-Battle.jpg</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
       </binding>
     </result>
     <result>
@@ -2015,6 +2503,38 @@
     </result>
     <result>
       <binding name="subject">
+        <uri>http://nzetc.victoria.ac.nz/tm/scholarly/tei-NHSJ05_01-t1-body1-d3.html</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;doc&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/Mot_everett_bros_store_1</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Everett Bros. Motueka</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://www.theprow.org.nz/assets/Your_stories/Everett-Bros-Motueka-1902.jpg</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/objects/36635</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
         <uri>http://tracery.openwork.nz/data/place/building/John_Wilsons_Accommodation_House</uri>
       </binding>
       <binding name="info">
@@ -2027,6 +2547,14 @@
       </binding>
       <binding name="info">
         <literal xml:lang="en">Canvastown</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/Mokueka_Valley</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Motueka Valley</literal>
       </binding>
     </result>
     <result>
@@ -2111,10 +2639,58 @@
     </result>
     <result>
       <binding name="subject">
+        <uri>http://www.theprow.org.nz/assets/Your_stories/Everett-Captain-George-Gordon.jpg</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://erlangen-crm.org/current/P13_destroyed</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Destroyed</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://paperspast.natlib.govt.nz/newspapers/NEM18750322.2.9</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;doc&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/tyree%20studio/36391.jpg</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
         <uri>http://tracery.openwork.nz/data/place/building/Hardy_Street_Bank_building</uri>
       </binding>
       <binding name="info">
         <literal xml:lang="en">Hardy Street Bank</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/hotel_keeper</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Hotellier</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/role/hotel_keeper</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Hotel keeper</literal>
       </binding>
     </result>
     <result>
@@ -2159,14 +2735,6 @@
     </result>
     <result>
       <binding name="subject">
-        <uri>http://erlangen-crm.org/current/P146_separated_from</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">Separated</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
         <uri>http://tracery.openwork.nz/data/event/activity/move_victoria_house_1</uri>
       </binding>
       <binding name="info">
@@ -2187,14 +2755,6 @@
       </binding>
       <binding name="info">
         <literal xml:lang="en">Victoria House</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
-        <uri>http://tracery.openwork.nz/data/place/street/trafalgar_street</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">Trafalgar Street</literal>
       </binding>
     </result>
     <result>
@@ -2255,6 +2815,14 @@
     </result>
     <result>
       <binding name="subject">
+        <uri>https://paperspast.natlib.govt.nz/newspapers/TC18991121.2.10.1</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;doc&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
         <uri>http://tracery.openwork.nz/data/data/thing/apples</uri>
       </binding>
       <binding name="info">
@@ -2275,14 +2843,6 @@
       </binding>
       <binding name="info">
         <literal xml:lang="en">William Snow</literal>
-      </binding>
-    </result>
-    <result>
-      <binding name="subject">
-        <uri>http://erlangen-crm.org/current/P51i_is_former_or_current_owner_of</uri>
-      </binding>
-      <binding name="info">
-        <literal xml:lang="en">Owner</literal>
       </binding>
     </result>
     <result>
@@ -2331,6 +2891,14 @@
       </binding>
       <binding name="info">
         <literal datatype="http://www.w3.org/2001/XMLSchemadate">1914-00-00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/w%20e%20brown/11412.jpg</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
       </binding>
     </result>
     <result>
@@ -2403,6 +2971,38 @@
       </binding>
       <binding name="info">
         <literal xml:lang="en">HMS Sir Edward Paget</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://www.yesteryears.co.nz/shipping/passlists/siredwardpaget.html</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;doc&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://ndhadeliver.natlib.govt.nz/delivery/DeliveryManagerServlet?dps_pid=IE15211090</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;doc&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/medium/photography/tyree%20studio/89443.jpg</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>http://tracery.openwork.nz/data/place/street/trafalgar_street</uri>
+      </binding>
+      <binding name="info">
+        <literal xml:lang="en">Trafalgar Street</literal>
       </binding>
     </result>
     <result>
@@ -2499,6 +3099,14 @@
       </binding>
       <binding name="info">
         <literal xml:lang="en">Stafford House</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="subject">
+        <uri>https://collection.nelsonmuseum.co.nz/images/xlarge/photography/davis/757.jpg</uri>
+      </binding>
+      <binding name="info">
+        <literal>&lt;img&gt;</literal>
       </binding>
     </result>
     <result>
