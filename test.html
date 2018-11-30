@@ -28,8 +28,15 @@ button {
 }
 
 .link {
+    fill: none;
 	stroke: gray;
 	stroke-width: 2px;
+}
+.linkLabel text {
+    fill: gray;
+    font-size: 50%;
+    font-style: italic;
+    stroke: none;
 }
 
 </style>
@@ -45,7 +52,7 @@ var graph = {nodes: [], links1: []}, store = {} , kindLabel = {};
 var svg = d3.select("svg"),
     width = +svg.attr("width"),
     height = +svg.attr("height"),
-    radius = 10;
+    radius = 20;
 
 //	d3 color scales
 // var color = d3.scaleOrdinal(d3.schemeCategory10);
@@ -61,6 +68,7 @@ var link = svg.append("g").selectAll(".link"),
 //	force simulation initialization
 var simulation = d3.forceSimulation()
 	.force("link", d3.forceLink()
+           .distance(60)
 		.id(function(d) { return d.id; }))
 	.force("charge", d3.forceManyBody()
 		.strength(function(d) { return -500;}))
@@ -175,11 +183,14 @@ function update() {
 			update()
 		})
 
+    
     newNode.append("text")
+        .attr("y", 1.5*radius)
+        .attr("text-anchor", "middle")
         .attr("font-size", "50%")
         .text(function(d) {
           var labelling = kindLabel.nodes[d.name]
-          if (!labelling) return d.name
+          if (!labelling) return d.name.split("/").pop()
           return labelling.label;
           })
       ;
@@ -198,17 +209,18 @@ function update() {
 	//	EXIT
 	link.exit().remove();
 	//	ENTER
-	var newLink = link.enter().append("g")
-        newLink.append("line")
-		.attr("class", "link");
+	var newLink = link.enter().append("g").attr("class", "link")
+        newLink.append("path");
+        .append("textPath")
 
-	newLink.append("g")
+	newLink.append("g").attr("class", "linkLabel")
         .append("text")
-        .attr("font-size", "50%")
-        .attr("font-style", "italic")
+        
         .text(function(d) {
             var labelling = kindLabel.nodes[d.predicate]
-            if (!labelling) return d.predicate
+              if (!labelling) {
+              //.attr("fill", "red")
+              return d.predicate.split("/").pop()}
             return labelling.label;
             });
 
@@ -241,11 +253,22 @@ function ticked() {
             return "translate(" + x + " " + y + ")"
             });
             
-	link.select("line")
+    
+    link.select("path")
+        .attr("d", function(d) {
+              var dx = d.target.x - d.source.y,
+              dy = d.target.y - d.source.y,
+              dr = Math.sqrt(dx*dx + dy*dy)
+              return "M" + d.source.x + "," + d.source.y +
+              "A" + dr + "," + dr + " 0 0,1 " +
+              d.target.x + "," + d.target.y
+              })
+              
+	/*link.select("line")
 		.attr("x1", function(d) { return d.source.x; })
 		.attr("y1", function(d) { return d.source.y; })
 		.attr("x2", function(d) { return d.target.x; })
-		.attr("y2", function(d) { return d.target.y; });
+		.attr("y2", function(d) { return d.target.y; });*/
 }
 
 //	filter function
