@@ -124,7 +124,7 @@ d3.xml("tracery.xml", function(err, links) {
       if (!r || r.childNodes.length == 0) return undefined
       return r.childNodes[0].nodeValue
     }
-                        
+
     return {
       subject: getVar("subject"),
       predicate: getVar("predicate"),
@@ -138,10 +138,10 @@ d3.xml("tracery.xml", function(err, links) {
     })
   links.forEach(function(link) {
     link.source = nodes[link.subject] || (
-      nodes[link.subject] = {name: link.subject, peers: [], filtered: true}
+      nodes[link.subject] = {name: link.subject, peers: [], filtered: true, distance: MAX_DIST}
     )
     link.target = nodes[link.object] || (
-      nodes[link.object] = {name: link.object, peers: [], filtered: true}
+      nodes[link.object] = {name: link.object, peers: [], filtered: true, distance: MAX_DIST}
     )
     link.filtered = true
     if (link.source.peers.indexOf(link.target) < 0)
@@ -181,7 +181,6 @@ function update() {
 			update()
 		})
 
-    
     newNode.append("text")
         .attr("y", 1.5*radius)
         .attr("text-anchor", "middle")
@@ -223,11 +222,10 @@ function update() {
             return labelling.label;
             });
 
-            
 	//	ENTER + UPDATE
 	link = link.merge(newLink);
    // link.selectAll("text").data(links1).enter()
-   
+
 	//	update simulation nodes, links, and alpha
 	simulation
 		.nodes(graph.nodes)
@@ -257,14 +255,18 @@ function ticked() {
               })
 }
 
+var MAX_DIST = 4
 //	filter function
 function filter(focused, d) {
 	//	add and remove nodes from data based on type filters
 	store.nodes.forEach(function(n) {
-		if (focused.indexOf(n) >= 0 && n.filtered) {
+	  if (focused.indexOf(n) >= 0) n.distance = 0
+	  else if (n.distance <= MAX_DIST) n.distance++
+
+		if (n.distance <= MAX_DIST && n.filtered) {
 			n.filtered = false;
 			graph.nodes.push(n);
-		} else if (focused.indexOf(n) < 0 && !n.filtered) {
+		} else if (n.distance > MAX_DIST && !n.filtered) {
 			n.filtered = true;
 			graph.nodes.forEach(function(d, i) {
 				if (n === d) {
@@ -287,7 +289,7 @@ function filter(focused, d) {
 				}
 			});
 		}
-	});			
+	});
 }
 
 </script>
