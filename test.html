@@ -100,19 +100,17 @@ d3.xml("tracery_type_label.xml", function(err, links) {
          label: getVal("label")
      }
   });
-       
+
      var nodes = {},
         links = results.filter(function(link) {
           return link.subject
         })
         links.forEach(function(link) {
               nodes[link.subject] = link
-    
         })
         kindLabel.nodes = nodes
         kindLabel.links1 = links
         update()
-                         
 });
 //	data read and store for triples
 d3.xml("tracery.xml", function(err, links) {
@@ -204,18 +202,19 @@ function update() {
 
 
 	//	UPDATE
-    
 	link = link.data(graph.links1, function(d) { return d.id;});
 	//	EXIT
 	link.exit().remove();
 	//	ENTER
 	var newLink = link.enter().append("g").attr("class", "link")
-        newLink.append("path");
-        .append("textPath")
+  newLink.append("path")
+    .attr("id", function(d, i) {return "link-" + i});
+
 
 	newLink.append("g").attr("class", "linkLabel")
         .append("text")
-        
+        .append("textPath")
+        .attr("xlink:href", function(d, i) {return "#link-" + i})
         .text(function(d) {
             var labelling = kindLabel.nodes[d.predicate]
               if (!labelling) {
@@ -247,13 +246,6 @@ function ticked() {
               return "translate(" + d.x + " " + d.y + ")"
               });
 
-    link.select("g").attr("transform", function(d) {
-            var x = (d.source.x + d.target.x) / 2
-            var y = (d.source.y + d.target.y) / 2
-            return "translate(" + x + " " + y + ")"
-            });
-            
-    
     link.select("path")
         .attr("d", function(d) {
               var dx = d.target.x - d.source.y,
@@ -263,12 +255,6 @@ function ticked() {
               "A" + dr + "," + dr + " 0 0,1 " +
               d.target.x + "," + d.target.y
               })
-              
-	/*link.select("line")
-		.attr("x1", function(d) { return d.source.x; })
-		.attr("y1", function(d) { return d.source.y; })
-		.attr("x2", function(d) { return d.target.x; })
-		.attr("y2", function(d) { return d.target.y; });*/
 }
 
 //	filter function
