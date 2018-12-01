@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave|Unlock" rel="stylesheet">
 <html>
 <meta charset="UTF-8">
 <style>
@@ -6,20 +7,30 @@
 button {
   position: absolute;
 }
-
-#blue {
-  top: 1em;
-  left: 1em;
+header h1 {
+    font-family: 'Unlock', cursive;
+    font-size: 64pt;
+    text-align: left;
+}
+header {
+    background-color: #b2b19c;
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 40pt;
+    float: right;
+    text-align: center;
 }
 
-#orange {
-  top: 1em;
-  left: 8em;
+header * {
+    display: inline;
 }
 
-#green {
-  top: 1em;
-  left: 16em;
+body {
+    background-color: #f1f0da;
+}
+
+{
+font-family: 'Arvo', serif;
+
 }
 
 .node {
@@ -29,19 +40,25 @@ button {
 
 .link {
     fill: none;
-	stroke: gray;
-	stroke-width: 2px;
+	stroke: silver;
+	stroke-width: 1px;
+    stroke-dasharray: 2;
 }
 .linkLabel text {
-    fill: gray;
-    font-size: 50%;
+    fill: black;
+    font-size: 75%;
     font-style: italic;
     stroke: none;
 }
 
 </style>
 
-<svg width="960" height="500"></svg>
+<body>
+    <header>
+        <h1>Tracery</h1> <h2>What's your story</h2>
+    </header>
+
+<svg width="1200" height="1040"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 
@@ -61,6 +78,7 @@ svg.append("defs").append("clipPath")
     .attr("id", "circle-clip")
   .append("circle")
     .attr("r", radius)
+    ;
 
 //	d3 color scales
 // var color = d3.scaleOrdinal(d3.schemeCategory10);
@@ -73,13 +91,14 @@ var color = d3.scaleOrdinal()
 var link = svg.append("g").selectAll(".link"),
 	node = svg.append("g").selectAll(".node");
 
+
 //	force simulation initialization
 var simulation = d3.forceSimulation()
 	.force("link", d3.forceLink()
 		.id(function(d) { return d.id; }))
 	.force("charge", d3.forceManyBody()
 		.strength(function(d) { return -3000;}))
-        .velocityDecay(.5)
+        .velocityDecay(.1)
         .force("center", d3.forceCenter(width / 2, height / 2));
  //   .force("alphaDecay", .9 );
 
@@ -172,6 +191,25 @@ d3.xml("tracery.xml", function(err, links) {
 	update()
 });
 
+function dblclick(d) {
+    d.fx = null;
+    d.fy = null;
+}
+function dragstarted(d) {
+    if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+    d.fx = d.x;
+    d.fy = d.y;
+}
+
+function dragged(d) {
+    d.fx = d3.event.x;
+    d.fy = d3.event.y;
+}
+
+function dragended(d) {
+    if (!d3.event.active) simulation.alphaTarget(0);
+}
+
 
 
 //	general update pattern for updating the graph
@@ -190,9 +228,16 @@ function update() {
 		.on("click", function(d) {
             active = d
 		    d.visited = true
+            d.fixed = true
 			filter(d.peers)
 			update()
 		})
+        .on("dblclick", dblclick)
+        .call(d3.drag()
+              .on("start", dragstarted)
+              .on("drag", dragged)
+              .on("end", dragended)
+              );
      /*   .on("mouseover", function(d) {
             active = d.name
             update()
@@ -226,7 +271,7 @@ function update() {
   newLink.append("path")
     .attr("id", function(d, i) {return "link-" + i});
 
-	newLink.append("g").attr("class", "linkLabel")
+  newLink.append("g").attr("class", "linkLabel")
         .append("text")
         .append("textPath")
         .style("text-anchor", "middle")
@@ -313,3 +358,4 @@ function filter(focused, d) {
 }
 
 </script>
+</body>
