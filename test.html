@@ -244,6 +244,12 @@ function update() {
 
 //	tick event handler with bounded box
 function ticked() {
+    graph.nodes.forEach(function(n) {
+      if (n.x < 0) n.x = 10
+      if (n.x > width) n.x = width - 10
+      if (n.y < 0) n.y = 10
+      if (n.y > height) n.y = height - 10
+    })
 
     node.attr("transform", function(d) {
               return "translate(" + d.x + " " + d.y + ")"
