@@ -54,6 +54,11 @@ var svg = d3.select("svg"),
     height = +svg.attr("height"),
     radius = 20;
 
+svg.append("defs").append("clipPath")
+    .attr("id", "circle-clip")
+  .append("circle")
+    .attr("r", radius)
+
 //	d3 color scales
 // var color = d3.scaleOrdinal(d3.schemeCategory10);
 var color = d3.scaleOrdinal()
@@ -80,7 +85,7 @@ typeFilterList = [];
 //  data read and store for kind and label
 d3.xml("tracery_type_label.xml", function(err, links) {
    if (err) throw err;
-   
+
    var results = links.querySelectorAll("result")
    results = [].slice.call(results)
    results = results.map(function(typeLabel) {
@@ -160,7 +165,6 @@ d3.xml("tracery.xml", function(err, links) {
 	//filter(store.nodes[0].peers)
        filter(nodes["http://tracery.openwork.nz/data/people/eje"].peers)
 	update()
-       
 });
 
 
@@ -255,18 +259,18 @@ function ticked() {
               })
 }
 
-var MAX_DIST = 4
+var MAX_DIST = 2
 //	filter function
 function filter(focused, d) {
 	//	add and remove nodes from data based on type filters
 	store.nodes.forEach(function(n) {
 	  if (focused.indexOf(n) >= 0) n.distance = 0
-	  else if (n.distance <= MAX_DIST) n.distance++
+	  else if (n.distance < MAX_DIST) n.distance++
 
-		if (n.distance <= MAX_DIST && n.filtered) {
+		if (n.distance < MAX_DIST && n.filtered) {
 			n.filtered = false;
 			graph.nodes.push(n);
-		} else if (n.distance > MAX_DIST && !n.filtered) {
+		} else if (n.distance >= MAX_DIST && !n.filtered) {
 			n.filtered = true;
 			graph.nodes.forEach(function(d, i) {
 				if (n === d) {
