@@ -189,6 +189,7 @@ function update() {
               })
 		.on("click", function(d) {
             active = d
+		    d.visited = true
 			filter(d.peers)
 			update()
 		})
@@ -272,13 +273,15 @@ function ticked() {
               })
 }
 
-var MAX_DIST = 2
+var MAX_DIST = 4
 //	filter function
 function filter(focused, d) {
 	//	add and remove nodes from data based on type filters
 	store.nodes.forEach(function(n) {
 	  if (focused.indexOf(n) >= 0) n.distance = 0
-	  else if (n.distance < MAX_DIST) n.distance++
+	  else if (n.visited) {
+	    if (n.distance < MAX_DIST) n.distance++
+	  } else n.distance = MAX_DIST + 1
 
 		if (n.distance < MAX_DIST && n.filtered) {
 			n.filtered = false;
