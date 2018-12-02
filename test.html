@@ -87,6 +87,10 @@ var color = d3.scaleOrdinal()
 .range(["#00FF00","#FF0000","#0000FF","#C0C0C0","#00FFFF","#FFFF00","#008080","#FF00FF"]);
 
 
+var icons = d3.scaleOrdinal()
+.domain(["http://www.w3.org/ns/org#/Role", "http://erlangen-crm.org/current/E5_Event", "http://erlangen-crm.org/current/E21_Person", "http://erlangen-crm.org/current/E18_Physical_Thing", "http://erlangen-crm.org/current/E74_Group", "http://erlangen-crm.org/current/E53_Place", "http://erlangen-crm.org/current/E31_Document", "http://erlangen-crm.org/current/P38_Image"])
+.range(["./images/role.png", "./images/event.png", "./images/person.png", "./images/thing.png", "./images/group.png", "./images/place.png", "./images/document.png", "./images/picture.png"]);
+
 
 var link = svg.append("g").selectAll(".link"),
 	node = svg.append("g").selectAll(".node");
@@ -251,7 +255,13 @@ function update() {
           })
       ;
     newNode.append("image")
-        .attr("xlink:href", "https://duckduckgo.com/favicon.ico")
+        .attr("xlink:href",
+              //"https://duckduckgo.com/favicon.ico")
+              function(d) {
+              var labelling = kindLabel.nodes[d.name]
+              if (!labelling) return "gray"
+              return icons(labelling.kind)
+              })
         .attr("x", -radius).attr("y", -radius)
         .attr("width", 2*radius).attr("height", 2*radius)
         .attr("clip-path", "url(#circle-clip)")
@@ -261,7 +271,7 @@ function update() {
           var labelling = kindLabel.nodes[d.name]
           if (!labelling) return "gray"
           return color(labelling.kind)
-    })
+        })
 
 
 	//	UPDATE
