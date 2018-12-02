@@ -22,7 +22,12 @@ h2 {
     font-style: italic;
     float: center;
     text-align: center;
+    position: fixed;
     position: sticky;
+    position: -moz-sticky;
+    position: -webkit-sticky;
+    position: -ms-sticky;
+    top: 0;
 }
 
 header * {
@@ -34,18 +39,7 @@ body {
     font-family: 'Cormorant Garamond', serif;
 }
 
-/*{
 
- 
- font-family: 'Montaga', serif;
- 
- font-family: 'EB Garamond', serif;
- 
- 
- 
-
-
-}*/
 
 .node {
 	fill: white;
@@ -65,8 +59,17 @@ body {
     stroke: none;
 }
 
-section {overflow: scroll; width: calc(100% - 400px);}
-iframe {position: fixed; height: 100%; width: 400px; right: 0; border: none;}
+section {
+    overflow: scroll;
+    width: calc(100% - 400px);
+}
+iframe {
+    position: fixed;
+    height: 100%;
+    width: 400px;
+    right: 0;
+    border: none;
+}
 
 </style>
 
