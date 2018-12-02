@@ -189,9 +189,8 @@ d3.xml("tracery.xml", function(err, links) {
 	store.nodes = d3.values(nodes)
 	store.links1 = d3.values(links)
 
-	//filter(store.nodes[0].peers)
-       filter(nodes[selected].peers)
-       active = nodes[selected]
+    filter(nodes[selected].peers)
+    active = nodes[selected]
 	update()
 });
 
@@ -259,7 +258,9 @@ function update() {
               //"https://duckduckgo.com/favicon.ico")
               function(d) {
               var labelling = kindLabel.nodes[d.name]
-              if (!labelling) return "gray"
+              if (!labelling) return ""
+              if (labelling.kind == "http://erlangen-crm.org/current/P38_Image" ||
+                    labelling.kind == "http://erlangen-crm.org/current/38_Image") return d.name
               return icons(labelling.kind)
               })
         .attr("x", -radius).attr("y", -radius)
