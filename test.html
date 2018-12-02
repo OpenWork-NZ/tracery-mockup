@@ -83,7 +83,7 @@ svg.append("defs").append("clipPath")
 //	d3 color scales
 // var color = d3.scaleOrdinal(d3.schemeCategory10);
 var color = d3.scaleOrdinal()
-.domain(["http://www.w3.org/ns/org#/Role", "http://erlangen-crm.org/current/E5_Event", "http://erlangen-crm.org/current/E21_Person", "http://erlangen-crm.org/current/E18_Physical_Thing", "http://erlangen-crm.org/current/E74_Group", "http://erlangen-crm.org/current/E53_Place", "http://erlangen-crm.org/current/E31_Document", "http://erlangen-crm.org/current/38_Image"])
+.domain(["http://www.w3.org/ns/org#/Role", "http://erlangen-crm.org/current/E5_Event", "http://erlangen-crm.org/current/E21_Person", "http://erlangen-crm.org/current/E18_Physical_Thing", "http://erlangen-crm.org/current/E74_Group", "http://erlangen-crm.org/current/E53_Place", "http://erlangen-crm.org/current/E31_Document", "http://erlangen-crm.org/current/P38_Image"])
 .range(["#00FF00","#FF0000","#0000FF","#C0C0C0","#00FFFF","#FFFF00","#008080","#FF00FF"]);
 
 
@@ -220,28 +220,25 @@ function update() {
 	node.exit().remove();
 	//	ENTER
 	var newNode = node.enter().append("g")
-        newNode.append("circle")
+	    .on("click", function(d) {
+            active = d
+	        d.visited = true
+            d.fixed = true
+		    filter(d.peers)
+		    update()
+	    })
+        .on("dblclick", dblclick)
+        .call(d3.drag()
+          .on("start", dragstarted)
+          .on("drag", dragged)
+          .on("end", dragended)
+        )
+      newNode.append("circle")
 		.attr("class", "node")
         .attr("r", function(d) {
               return d === active? 2*radius: radius
-              })
-		.on("click", function(d) {
-            active = d
-		    d.visited = true
-            d.fixed = true
-			filter(d.peers)
-			update()
-		})
-        .on("dblclick", dblclick)
-        .call(d3.drag()
-              .on("start", dragstarted)
-              .on("drag", dragged)
-              .on("end", dragended)
-              );
-     /*   .on("mouseover", function(d) {
-            active = d.name
-            update()
-            })*/
+        });
+
 
     newNode.append("text")
         .attr("y", 1.5*radius)
@@ -253,6 +250,11 @@ function update() {
           return labelling.label;
           })
       ;
+    newNode.append("image")
+        .attr("xlink:href", "https://duckduckgo.com/favicon.ico")
+        .attr("x", -radius).attr("y", -radius)
+        .attr("width", 2*radius).attr("height", 2*radius)
+        .attr("clip-path", "url(#circle-clip)")
 	//	ENTER + UPDATE
     node = node.merge(newNode);
     node.select("circle").attr("stroke", function(d) {
