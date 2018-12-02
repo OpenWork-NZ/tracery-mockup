@@ -18,6 +18,7 @@ header {
     font-size: 40pt;
     float: right;
     text-align: center;
+    position: sticky;
 }
 
 header * {
@@ -51,7 +52,8 @@ font-family: 'Arvo', serif;
     stroke: none;
 }
 
-iframe {position: fixed; top: 0; right: 0;}
+section {overflow: scroll; width: calc(100% - 400px);}
+iframe {position: fixed; height: 100%; width: 400px; right: 0; border: none;}
 
 </style>
 
@@ -61,8 +63,8 @@ iframe {position: fixed; top: 0; right: 0;}
     </header>
 
     <main>
-        <iframe src="about:blank" style="visibility: hidden"></iframe>
-        <svg width="1200" height="1040"></svg>
+        <iframe src="about.html"></iframe>
+        <section><svg width="1200" height="1040"></svg></section>
     </main>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
@@ -260,7 +262,6 @@ function update() {
       ;
     newNode.append("image")
         .attr("xlink:href",
-              //"https://duckduckgo.com/favicon.ico")
               function(d) {
               var labelling = kindLabel.nodes[d.name]
               if (!labelling) return ""
@@ -313,8 +314,7 @@ function update() {
     if (labelling && valid_types.indexOf(labelling.kind) >= 0) {
         d3.select("iframe")
             .attr("src", active.name)
-            .style("visibility", "visible")
-    } else d3.select("iframe").style("visibility", "hidden")
+    } else d3.select("iframe").attr("href", "about.html")
 
 	//	update simulation nodes, links, and alpha
 	simulation
