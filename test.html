@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave|Unlock" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:600|EB+Garamond:400i,600i,700|Montaga" rel="stylesheet">
+    
 <html>
 <meta charset="UTF-8">
 <style>
@@ -7,16 +8,19 @@
 button {
   position: absolute;
 }
-header h1 {
-    font-family: 'Unlock', cursive;
+header {
+    background-color: #b2b19c;
+}
+h1 {
+    font-family: 'EB Garamond', serif;
     font-size: 64pt;
     text-align: left;
 }
-header {
-    background-color: #b2b19c;
-    font-family: 'Sedgwick Ave', cursive;
+h2 {
+    font-family: 'Montaga', serif; 
     font-size: 40pt;
-    float: right;
+    font-style: italic;
+    float: center;
     text-align: center;
     position: sticky;
 }
@@ -27,12 +31,21 @@ header * {
 
 body {
     background-color: #f1f0da;
+    font-family: 'Cormorant Garamond', serif;
 }
 
-{
-font-family: 'Arvo', serif;
+/*{
 
-}
+ 
+ font-family: 'Montaga', serif;
+ 
+ font-family: 'EB Garamond', serif;
+ 
+ 
+ 
+
+
+}*/
 
 .node {
 	fill: white;
@@ -59,7 +72,7 @@ iframe {position: fixed; height: 100%; width: 400px; right: 0; border: none;}
 
 <body>
     <header>
-        <h1>Tracery</h1> <h2>What's your story</h2>
+        <h1>Tracery  </h1> <h2> --- What's your story --- </h2>
     </header>
 
     <main>
@@ -76,7 +89,7 @@ var graph = {nodes: [], links1: []}, store = {} , kindLabel = {};
 var svg = d3.select("svg"),
     width = +svg.attr("width"),
     height = +svg.attr("height"),
-    radius = 20
+    radius = 30
     selected = "http://tracery.openwork.nz/data/people/eje"
     active = selected;
 
@@ -108,7 +121,7 @@ var simulation = d3.forceSimulation()
 	.force("link", d3.forceLink()
 		.id(function(d) { return d.id; }))
 	.force("charge", d3.forceManyBody()
-		.strength(function(d) { return -3000;}))
+		.strength(function(d) { return -6000;}))
         .velocityDecay(.1)
         .force("center", d3.forceCenter(width / 2, height / 2));
  //   .force("alphaDecay", .9 );
@@ -253,7 +266,7 @@ function update() {
     newNode.append("text")
         .attr("y", 1.5*radius)
         .attr("text-anchor", "middle")
-        .attr("font-size", "50%")
+        //.attr("font-size", "50%")
         .text(function(d) {
           var labelling = kindLabel.nodes[d.name]
           if (!labelling) return d.name.split("/").pop()
