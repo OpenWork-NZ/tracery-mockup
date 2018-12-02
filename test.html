@@ -63,11 +63,11 @@ section {
     overflow: scroll;
     /*width: 75%; */
 }
-iframe {
+.infobox {
     position: fixed;
-    height: 100%;
     width: 25%;
     right: 0;
+    top: 0;
     border: none;
 }
 
@@ -79,7 +79,7 @@ iframe {
     </header>
 
     <main>
-        <iframe src="about.html"></iframe>
+        <img class="infobox" />
         <section><svg width="1200" height="1040"></svg></section>
     </main>
 <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -326,11 +326,12 @@ function update() {
 
     // Update iframe for documents and images
     var labelling = kindLabel.nodes[active.name]
-    var valid_types = "http://erlangen-crm.org/current/E31_Document http://erlangen-crm.org/current/P38_Image http://erlangen-crm.org/current/38_Image http://erlangen-crm.org/current/E38_Image".split(" ")
+    var valid_types = "http://erlangen-crm.org/current/P38_Image http://erlangen-crm.org/current/38_Image http://erlangen-crm.org/current/E38_Image".split(" ")
     if (labelling && valid_types.indexOf(labelling.kind) >= 0) {
-        d3.select("iframe")
+        d3.select(".infobox")
             .attr("src", active.name)
-    } else d3.select("iframe").attr("href", "about.html")
+            .style("visibility", "visible")
+    } else d3.select(".infobox").style("visibility", "hidden")
 
 	//	update simulation nodes, links, and alpha
 	simulation
