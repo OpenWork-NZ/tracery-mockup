@@ -10,18 +10,6 @@ button {
 }
 header {
     background-color: #b2b19c;
-}
-h1 {
-    font-family: 'EB Garamond', serif;
-    font-size: 64pt;
-    text-align: left;
-}
-h2 {
-    font-family: 'Montaga', serif; 
-    font-size: 40pt;
-    font-style: italic;
-    float: center;
-    text-align: center;
     position: fixed;
     position: sticky;
     position: -moz-sticky;
@@ -29,9 +17,20 @@ h2 {
     position: -ms-sticky;
     top: 0;
 }
-
-header * {
-    display: inline;
+h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 64pt;
+    text-align: left;
+    padding: 0; margin: 0;
+}
+h2 {
+    font-family: 'Montaga', serif; 
+    font-size: 40pt;
+    font-style: italic;
+    float: center;
+    text-align: center;
+    font-weight: thin;
+    padding: 0; margin: 0;
 }
 
 body {
@@ -73,13 +72,15 @@ section {
 
 <body>
     <header>
-        <h1>Tracery  </h1> <h2> --- What's your story --- </h2>
-        <select id="restart">
-          <option>Restart from...</option>
-          <option value="http://tracery.openwork.nz/data/people/eje">
-            Edward Jr Everett
-          </option>
-        </select>
+        <h1>Tracery  </h1>
+        <h2> &rarr;&rarr;&rarr; What's your story &larr;&larr;&larr; 
+            <select id="restart">
+              <option>Restart from...</option>
+              <option value="http://tracery.openwork.nz/data/people/eje">
+                Edward Jr Everett
+              </option>
+            </select>
+        </h2>
     </header>
 
     <main>
