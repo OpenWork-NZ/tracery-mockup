@@ -74,6 +74,12 @@ section {
 <body>
     <header>
         <h1>Tracery  </h1> <h2> --- What's your story --- </h2>
+        <select id="restart">
+          <option>Restart from...</option>
+          <option value="http://tracery.openwork.nz/data/people/eje">
+            Edward Jr Everett
+          </option>
+        </select>
     </header>
 
     <main>
@@ -208,6 +214,7 @@ d3.xml("tracery.xml", function(err, links) {
   })
 
 	store.nodes = d3.values(nodes)
+	store.namedNodes = nodes
 	store.links1 = d3.values(links)
 
     filter(nodes[selected].peers)
@@ -234,7 +241,14 @@ function dragended(d) {
     if (!d3.event.active) simulation.alphaTarget(0);
 }
 
-
+d3.select('#restart').on('change', function() {
+    selected = this.value
+    this.value = undefined
+    console.log(selected)
+    filter(store.namedNodes[selected].peers)
+    active = store.namedNodes[selected]
+    update()
+})
 
 //	general update pattern for updating the graph
 function update() {
