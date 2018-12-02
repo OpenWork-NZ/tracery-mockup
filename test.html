@@ -51,6 +51,8 @@ font-family: 'Arvo', serif;
     stroke: none;
 }
 
+iframe {position: fixed; top: 0; right: 0;}
+
 </style>
 
 <body>
@@ -58,7 +60,10 @@ font-family: 'Arvo', serif;
         <h1>Tracery</h1> <h2>What's your story</h2>
     </header>
 
-<svg width="1200" height="1040"></svg>
+    <main>
+        <iframe src="about:blank" style="visibility: hidden"></iframe>
+        <svg width="1200" height="1040"></svg>
+    </main>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 
@@ -72,7 +77,7 @@ var svg = d3.select("svg"),
     radius = 20
     selected = "http://tracery.openwork.nz/data/people/eje"
     active = selected;
-    
+
 
 svg.append("defs").append("clipPath")
     .attr("id", "circle-clip")
@@ -301,6 +306,15 @@ function update() {
 	//	ENTER + UPDATE
 	link = link.merge(newLink);
    // link.selectAll("text").data(links1).enter()
+
+    // Update iframe for documents and images
+    var labelling = kindLabel.nodes[active.name]
+    var valid_types = "http://erlangen-crm.org/current/E31_Document http://erlangen-crm.org/current/P38_Image http://erlangen-crm.org/current/38_Image http://erlangen-crm.org/current/E38_Image".split(" ")
+    if (labelling && valid_types.indexOf(labelling.kind) >= 0) {
+        d3.select("iframe")
+            .attr("src", active.name)
+            .style("visibility", "visible")
+    } else d3.select("iframe").style("visibility", "hidden")
 
 	//	update simulation nodes, links, and alpha
 	simulation
